@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace Respository
 {
-    public partial class SalesWebsiteContext : DbContext
+    public partial class ShoppingWebsiteContext : DbContext
     {
-        public SalesWebsiteContext()
+        public ShoppingWebsiteContext()
         {
         }
 
-        public SalesWebsiteContext(DbContextOptions<SalesWebsiteContext> options)
+        public ShoppingWebsiteContext(DbContextOptions<ShoppingWebsiteContext> options)
             : base(options)
         {
         }
@@ -28,7 +28,7 @@ namespace Respository
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-QBHR7E5\\MSSQLSERVER01;Database=SalesWebsite;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-QBHR7E5\\MSSQLSERVER01;Database=ShoppingWebsite;Trusted_Connection=True;");
             }
         }
 
@@ -70,7 +70,7 @@ namespace Respository
 
                 entity.Property(e => e.OrderItemId).HasColumnName("ORDER_ITEM_ID");
 
-                entity.Property(e => e.Amount).HasColumnName("AMOUNT");
+                entity.Property(e => e.Quantity).HasColumnName("QUANTITY");
 
                 entity.Property(e => e.OrderId).HasColumnName("ORDER_ID");
 

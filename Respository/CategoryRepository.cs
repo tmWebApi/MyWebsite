@@ -10,8 +10,8 @@ namespace Respository
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private readonly SalesWebsiteContext dbContext;
-        public CategoryRepository(SalesWebsiteContext salesWebsiteContext)
+        private readonly ShoppingWebsiteContext dbContext;
+        public CategoryRepository(ShoppingWebsiteContext salesWebsiteContext)
         {
             dbContext = salesWebsiteContext;
         }

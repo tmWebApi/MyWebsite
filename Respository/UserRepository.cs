@@ -11,8 +11,8 @@ namespace Respository
 {
     public class UserRepository : IUserRepository
     {
-        private SalesWebsiteContext dbContext;
-        public UserRepository(SalesWebsiteContext salesWebsiteContext)
+        private ShoppingWebsiteContext dbContext;
+        public UserRepository(ShoppingWebsiteContext salesWebsiteContext)
         {
             dbContext = salesWebsiteContext;
         }

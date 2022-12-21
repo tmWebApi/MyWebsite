@@ -10,8 +10,8 @@ namespace Respository
 {
     public class ProductRepository : IProductRepository
     {
-        private readonly SalesWebsiteContext dbContext;
-        public ProductRepository(SalesWebsiteContext salesWebsiteContext)
+        private readonly ShoppingWebsiteContext dbContext;
+        public ProductRepository(ShoppingWebsiteContext salesWebsiteContext)
         {
             dbContext = salesWebsiteContext;
         }
