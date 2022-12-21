@@ -10,14 +10,14 @@ namespace Respository
 {
     public class CategoryRepository : ICategoryRepository
     {
-        private readonly ShoppingWebsiteContext dbContext;
+        private readonly ShoppingWebsiteContext _dbContext;
         public CategoryRepository(ShoppingWebsiteContext salesWebsiteContext)
         {
-            dbContext = salesWebsiteContext;
+            _dbContext = salesWebsiteContext;
         }
         public async Task<IEnumerable<Category>> getCategories()
         {
-            List<Category> categories = await dbContext.Categories.ToListAsync();
+            List<Category> categories = await _dbContext.Categories.ToListAsync();
             return categories;
         }
     }

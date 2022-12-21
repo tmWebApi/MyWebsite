@@ -27,7 +27,7 @@ namespace MyFirstWebSite.Controllers
         [HttpPost]
         public async Task<ActionResult<Order>> Post([FromBody] Order order)
         {
-            Order newOrder = await _orderService.createOrder(order);
+            Order newOrder = await _orderService.saveOrder(order);
             return newOrder;
         }
 

@@ -16,9 +16,9 @@ namespace Service
         {
             _orderRepository = orderRepository;
         }
-        public async Task<Order> createOrder(Order order)
+        public async Task<Order> saveOrder(Order order)
         {
-            Order newOrder = await _orderRepository.createOrder(order);
+            Order newOrder = await _orderRepository.saveOrder(order);
             return newOrder;
         }
     }

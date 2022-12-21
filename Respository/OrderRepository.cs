@@ -10,15 +10,15 @@ namespace Respository
 {
     public class OrderRepository : IOrderRepository
     {
-        private readonly ShoppingWebsiteContext dbContext;
+        private readonly ShoppingWebsiteContext _dbContext;
         public OrderRepository(ShoppingWebsiteContext salesWebsiteContext)
         {
-            dbContext = salesWebsiteContext;
+            _dbContext = salesWebsiteContext;
         }
-        public async Task<Order> createOrder(Order order)
+        public async Task<Order> saveOrder(Order order)
         {
-            await dbContext.Orders.AddAsync(order);
-            await dbContext.SaveChangesAsync();
+            await _dbContext.Orders.AddAsync(order);
+            await _dbContext.SaveChangesAsync();
             return order;
         }
     }

@@ -11,14 +11,14 @@ namespace Respository
 {
     public class UserRepository : IUserRepository
     {
-        private ShoppingWebsiteContext dbContext;
+        private readonly ShoppingWebsiteContext _dbContext;
         public UserRepository(ShoppingWebsiteContext salesWebsiteContext)
         {
-            dbContext = salesWebsiteContext;
+            _dbContext = salesWebsiteContext;
         }
         public async Task<User> getUser(string userName, string password)
         {
-            var users = await (from user in dbContext.Users
+            var users = await (from user in _dbContext.Users
                                    where user.UserName == userName && user.Password == password 
                                    select user).ToListAsync();
 
@@ -27,20 +27,20 @@ namespace Respository
 
         public async Task<User> createUser(User user)
         {
-            await dbContext.Users.AddAsync(user);
-            await dbContext.SaveChangesAsync();
+            await _dbContext.Users.AddAsync(user);
+            await _dbContext.SaveChangesAsync();
             return user;
         }
 
-        public async void updateUser(int userId, User updateUser)
+        public void updateUser(int userId, User updateUser)
         {
-            var userToUpdate = await dbContext.Users.FindAsync(userId);
+            var userToUpdate = _dbContext.Users.Find(userId);
             if (userToUpdate == null) 
             { 
                 return; 
             }
-            dbContext.Entry(userToUpdate).CurrentValues.SetValues(updateUser);
-            await dbContext.SaveChangesAsync();
+            _dbContext.Entry(userToUpdate).CurrentValues.SetValues(updateUser);
+            _dbContext.SaveChanges();
         }
     }
 }

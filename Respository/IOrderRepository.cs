@@ -4,6 +4,6 @@ namespace Respository
 {
     public interface IOrderRepository
     {
-        Task<Order> createOrder(Order order);
+        Task<Order> saveOrder(Order order);
     }
 }
