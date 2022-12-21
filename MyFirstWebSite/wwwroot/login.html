@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+        <title>login</title>
+<link href="login.css" rel="stylesheet" />
+    </head>
+<body>
+    <div class="background">
+
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    <div class="form">
+        <h3>Login Here</h3>
+
+        <label for="userName">Username</label>
+        <input type="text" placeholder="Email" id="userName">
+
+        <label for="password">Password</label>
+        <input type="password" placeholder="Password" id="password">
+
+        <button id="login" onclick="connect()">Log In</button>
+        <div class="social">
+
+        </div>    
+        <div id="newUser">
+            <label for="newUserName">Username</label>
+            <input type="text" id="newUserName" />
+            <label for="newUserPassword">Password</label>
+            <input type="password" id="newUserPassword" onblur="checkPassword()" />
+            <span id="score"></span>
+            <span id="massegePassword"></span>
+            <progress id="progress"></progress>
+            <label for="newUserFirstName">first name</label>
+            <input type="text" id="newUserFirstName" />
+            <label for="">last name</label>
+            <input type="text" id="newUserLastName" />
+            <button onclick="addNewUser()" style="color:black">Register</button>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
+

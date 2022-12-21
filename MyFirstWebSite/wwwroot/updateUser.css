@@ -1,0 +1,32 @@
+﻿body {
+}
+#update{
+    color:black;
+}
+.form {
+    height: 800px;
+    width: 500px;   
+    
+
+}
+.background .shape {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.shape:first-child {
+    background: linear-gradient( #1845ad, #23a2f6 );
+    left: -100px;
+    top: -200px;
+}
+
+.shape:last-child {
+    background: linear-gradient( to right, #ff512f, #f09819 );
+    right: -100px;
+    bottom: -200px;
+}
+.input {
+   background-color:black;
+}
