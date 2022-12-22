@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MkxwkmsEnWhms7qR4mu5HOaHwG2fVtDYyFEjhBtZ6UY=",
+  "Hash": "afuxBSItSxsZciZo1taYN7LJm9/6zbYIcHHS3uggr60=",
   "Source": "MyFirstWebSite",
   "BasePath": "_content/MyFirstWebSite",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\bimba.jpg",
+      "SourceId": "MyFirstWebSite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyFirstWebSite",
+      "RelativePath": "image/products/bimba.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\products\\bimba.jpg"
+    },
     {
       "Identity": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\login.css",
       "SourceId": "MyFirstWebSite",

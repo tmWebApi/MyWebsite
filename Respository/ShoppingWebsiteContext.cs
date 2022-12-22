@@ -98,11 +98,11 @@ namespace Respository
                 entity.Property(e => e.CategoryId).HasColumnName("CATEGORY_ID");
 
                 entity.Property(e => e.Description)
-                    .HasMaxLength(50)
+                    .HasMaxLength(int.MaxValue)
                     .HasColumnName("DESCRIPTION");
 
                 entity.Property(e => e.ImgUrl)
-                    .HasMaxLength(50)
+                    .HasMaxLength(int.MaxValue)
                     .HasColumnName("IMG_URL");
 
                 entity.Property(e => e.Name)

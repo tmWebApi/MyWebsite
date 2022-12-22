@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\bimba.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\bimba.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\login.css",
       "PackagePath": "staticwebassets\\login.css"
     },
