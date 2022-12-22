@@ -18,9 +18,9 @@ namespace Service
         {
             _repositoryUser = repositoryUser;
         }
-        public async Task<User> getUser(string userName, string password)
+        public async Task<User?> getUser(string userName, string password)
         {
-            User user = await _repositoryUser.getUser(userName, password);
+            User? user = await _repositoryUser.getUser(userName, password);
             return user;
         }
         public async Task<User> createUser(User user)
@@ -33,5 +33,11 @@ namespace Service
         {
             _repositoryUser.updateUser(id, updateUser);
         }
+        public void deleteUser(int id)
+        {
+            _repositoryUser.deleteUser(id);
+        }
+
+
     }
 }

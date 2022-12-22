@@ -15,11 +15,12 @@ namespace MyFirstWebSite.Controllers
         {
             _orderService = orderService;
         }
-        //// GET: api/<OrderController>
-        //[HttpGet]
-        //public IEnumerable<string> Get()
+        // GET: api/<OrderController>/5
+        //[HttpGet("{id}")]
+        //public async Task<ActionResult<IEnumerable<Order>?>> GetOrderByUserId(int id)
         //{
-        //    return new string[] { "value1", "value2" };
+        //    IEnumerable<Order>? ordersUser = await _orderService.getOrdersByUserId(id);
+        //    return ordersUser == null ? NoContent() : Ok(ordersUser);
         //}
 
 

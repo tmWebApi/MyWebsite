@@ -15,6 +15,12 @@ namespace Respository
         {
             _dbContext = salesWebsiteContext;
         }
+        public async Task<IEnumerable<Order>?> getOrdersByUserId(int userId)
+        {
+            var query = _dbContext.Orders.Where(o => o.UserId == userId);
+            IEnumerable<Order> ordersUser = await query.ToArrayAsync();
+            return ordersUser.Count() > 1 ? ordersUser : null;
+        }
         public async Task<Order> saveOrder(Order order)
         {
             await _dbContext.Orders.AddAsync(order);

@@ -21,10 +21,10 @@ namespace MyFirstWebSite.Controllers
 
         // GET: api/<UserControllers>
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<User>>> Get([FromQuery] string userName, [FromQuery] string password)
+        public async Task<ActionResult<IEnumerable<User?>>> Get([FromQuery] string userName, [FromQuery] string password)
         {
            
-            User user = await _userService.getUser(userName, password);
+            User? user = await _userService.getUser(userName, password);
             //if (user == null)
             //    return NoContent();
             //return Ok(user);
@@ -52,6 +52,7 @@ namespace MyFirstWebSite.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
+            _userService.deleteUser(id);
         }
     }
 }

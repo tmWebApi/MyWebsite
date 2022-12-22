@@ -15,10 +15,17 @@ namespace Respository
         {
             _dbContext = salesWebsiteContext;
         }
-        public async Task<IEnumerable<Product>> getProducts(int?[] categoryID, int? priceFrom, int? priceTo, int? start, int? limit, string orderby, string dir)
+        public async Task<IEnumerable<Product>?> getProducts(string? name, int? minPrice, int? maxPrice, int?[] categoryID, int? start, int? limit, string? orderby, string? dir)
         {
-            IEnumerable<Product> products = await _dbContext.Products.ToArrayAsync();
-            return products;
+            var query = _dbContext.Products
+                .Where(product =>
+            (name == null ? true : (product.Name.Contains(name)))
+            && (minPrice == null ? true : (product.Price >= minPrice))
+            && (maxPrice == null ? true : (product.Price <= maxPrice))
+            && ((categoryID.Length == 0) ? true : categoryID.Contains(product.CategoryId))
+            );
+            IEnumerable<Product> products = await query.ToArrayAsync();
+            return products.Count() <1 ? null: products;
         }
     }
 }

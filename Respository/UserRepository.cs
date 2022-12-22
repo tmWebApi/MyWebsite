@@ -16,13 +16,14 @@ namespace Respository
         {
             _dbContext = salesWebsiteContext;
         }
-        public async Task<User> getUser(string userName, string password)
+        public async Task<User?> getUser(string userName, string password)
         {
-            var users = await (from user in _dbContext.Users
-                                   where user.UserName == userName && user.Password == password 
-                                   select user).ToListAsync();
-
-            return users.FirstOrDefault();
+            var query = _dbContext.Users.Where(user => user.UserName == userName && user.Password == password);
+            var user = await query.ToArrayAsync();
+            //var users = await (from user in _dbContext.Users
+            //                   where user.UserName == userName && user.Password == password
+            //                   select user).ToListAsync();
+            return user.FirstOrDefault();
         }
 
         public async Task<User> createUser(User user)
@@ -35,12 +36,24 @@ namespace Respository
         public void updateUser(int userId, User updateUser)
         {
             var userToUpdate = _dbContext.Users.Find(userId);
-            if (userToUpdate == null) 
-            { 
-                return; 
+            if (userToUpdate == null)
+            {
+                return;
             }
             _dbContext.Entry(userToUpdate).CurrentValues.SetValues(updateUser);
             _dbContext.SaveChanges();
+        }
+
+        public void deleteUser(int userId)
+        {
+            var user = _dbContext.Users.Find(userId);
+            if (user == null) 
+            {
+                return;
+            }
+            _dbContext.Users.Remove(user);
+            _dbContext.SaveChanges();
+
         }
     }
 }
