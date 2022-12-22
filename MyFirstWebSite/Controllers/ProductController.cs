@@ -22,7 +22,7 @@ namespace MyFirstWebSite.Controllers
         public async Task<ActionResult<IEnumerable<Product>>> Get([FromQuery] string? name, [FromQuery] int? minPrice, [FromQuery] int? maxPrice, [FromQuery] int?[] categoryID, int? start = 1, int? limit = 10, string? orderby = "Name", string? dir = "ASC")
         {
             IEnumerable<Product> products = await _productService.getProducts(name, minPrice, maxPrice,categoryID, start, limit, orderby, dir);
-            return products == null ? Ok(products) : NoContent();
+            return products == null ? NoContent(): Ok(products);
         }
 
 

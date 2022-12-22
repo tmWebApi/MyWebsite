@@ -1,8 +1,124 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\Products.css",
+      "PackagePath": "staticwebassets\\Products.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\Products.html",
+      "PackagePath": "staticwebassets\\Products.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\ShoppingBag.css",
+      "PackagePath": "staticwebassets\\ShoppingBag.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\ShoppingBag.html",
+      "PackagePath": "staticwebassets\\ShoppingBag.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\BagActive.png",
+      "PackagePath": "staticwebassets\\image\\BagActive.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\icn-remove.png",
+      "PackagePath": "staticwebassets\\image\\icn-remove.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\4inRow.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\4inRow.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\BoatAndTubes.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\BoatAndTubes.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\LiveInSlots.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\LiveInSlots.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\PoliceBoat.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\PoliceBoat.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\bimba.jpg",
       "PackagePath": "staticwebassets\\image\\products\\bimba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\carTrack.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\carTrack.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\chasingRainbows.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\chasingRainbows.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\chatterTelephone.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\chatterTelephone.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\cheeseRace.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\cheeseRace.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\clinic.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\clinic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\containerTruck.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\containerTruck.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\dubel.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\dubel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\kingOfFalafel.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\kingOfFalafel.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\pairOrTin.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\pairOrTin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\prisonerPolice.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\prisonerPolice.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\race.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\race.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\ringStacking.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\ringStacking.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\rummikub.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\rummikub.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\submarine.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\submarine.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\sweets.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\sweets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\tractor.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\tractor.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\whatTurtle.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\whatTurtle.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\woodenBoard.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\woodenBoard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\yellowBus.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\yellowBus.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\login.css",
@@ -15,6 +131,10 @@
     {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\login.js",
       "PackagePath": "staticwebassets\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\searchIcon.svg",
+      "PackagePath": "staticwebassets\\searchIcon.svg"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\updateUser.css",
