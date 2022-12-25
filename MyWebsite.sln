@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyFirstWebSite", "MyFirstWebSite\MyFirstWebSite.csproj", "{2C7E9441-6C9A-4414-94F1-49107AE2D45C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyWebsite", "MyFirstWebSite\MyWebsite.csproj", "{2C7E9441-6C9A-4414-94F1-49107AE2D45C}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{8B02C352-CC6B-4D70-84F7-2621A0CE27D6}"
 EndProject

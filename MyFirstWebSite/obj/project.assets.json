@@ -2283,9 +2283,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\MyFirstWebSite.csproj",
-      "projectName": "MyFirstWebSite",
-      "projectPath": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\MyFirstWebSite.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\MyWebsite.csproj",
+      "projectName": "MyWebsite",
+      "projectPath": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\MyWebsite.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\obj\\",
       "projectStyle": "PackageReference",
