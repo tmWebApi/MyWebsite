@@ -29,6 +29,10 @@
       "PackagePath": "staticwebassets\\image\\products\\4inRow.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\BBQparty.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\BBQparty.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\BoatAndTubes.jpg",
       "PackagePath": "staticwebassets\\image\\products\\BoatAndTubes.jpg"
     },
@@ -43,6 +47,10 @@
     {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\bimba.jpg",
       "PackagePath": "staticwebassets\\image\\products\\bimba.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\blanko.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\blanko.jpg"
     },
     {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\carTrack.jpg",
@@ -101,6 +109,10 @@
       "PackagePath": "staticwebassets\\image\\products\\submarine.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\sudoku.jpg",
+      "PackagePath": "staticwebassets\\image\\products\\sudoku.jpg"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\products\\sweets.jpg",
       "PackagePath": "staticwebassets\\image\\products\\sweets.jpg"
     },
@@ -121,6 +133,14 @@
       "PackagePath": "staticwebassets\\image\\products\\yellowBus.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\searchIcon.svg",
+      "PackagePath": "staticwebassets\\image\\searchIcon.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\image\\toys.png",
+      "PackagePath": "staticwebassets\\image\\toys.png"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\login.css",
       "PackagePath": "staticwebassets\\login.css"
     },
@@ -133,10 +153,6 @@
       "PackagePath": "staticwebassets\\login.js"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\searchIcon.svg",
-      "PackagePath": "staticwebassets\\searchIcon.svg"
-    },
-    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\updateUser.css",
       "PackagePath": "staticwebassets\\updateUser.css"
     },
@@ -145,8 +161,8 @@
       "PackagePath": "staticwebassets\\updateUser.html"
     },
     {
-      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\updateUserjs.js",
-      "PackagePath": "staticwebassets\\updateUserjs.js"
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyFirstWebSite\\MyFirstWebSite\\wwwroot\\updateUser.js",
+      "PackagePath": "staticwebassets\\updateUser.js"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyFirstWebSite.Microsoft.AspNetCore.StaticWebAssets.props",
