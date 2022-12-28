@@ -3,8 +3,8 @@ using Microsoft.EntityFrameworkCore;
 using Respository;
 using Service;
 
-string connectionString = @"Data Source=SRV2\PUPILS;Initial Catalog=SalesWebsite;Integrated Security=True;Trusted_Connection=True;";
-//string connectionString = "Data Source=DESKTOP-QBHR7E5\\MSSQLSERVER01;Initial Catalog=ShoppingWebsite;Integrated Security=True;Trusted_Connection=True;";
+//string connectionString = @"Data Source=SRV2\PUPILS;Initial Catalog=SalesWebsite;Integrated Security=True;Trusted_Connection=True;";
+string connectionString = "Data Source=DESKTOP-QBHR7E5\\MSSQLSERVER01;Initial Catalog=ShoppingWebsite;Integrated Security=True;Trusted_Connection=True;";
 
 var builder = WebApplication.CreateBuilder(args);
 

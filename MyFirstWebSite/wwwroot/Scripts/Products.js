@@ -40,7 +40,7 @@ const drawProduct = (product) => {
 
     clonProducts.querySelector("img").src = `..\\Images\\toys\\${product.imgUrl}`;
     clonProducts.querySelector("h1").innerText = product.name;
-    clonProducts.querySelector(".price").innerText = "$" + product.price;
+    clonProducts.querySelector(".price").innerText = "₪" + product.price;
     clonProducts.querySelector(".description").innerText = product.description;
     clonProducts.querySelector("button").addEventListener("click", () => {
         addToCart(product)
@@ -61,16 +61,16 @@ const drawCategory = (category) => {
     var clonCategories = temp.content.cloneNode(true);
     clonCategories.querySelector("input").value = false;
     clonCategories.querySelector("input").id = category.categoryId;
-    clonCategories.querySelector("input").addEventListener('change', () => { filterByCategory(category) });
+    clonCategories.querySelector("input").addEventListener('change', (event) => { filterByCategory(event,category) });
     clonCategories.querySelector("label").for = category.categoryId;
     clonCategories.querySelector(".OptionName").innerText = category.name;
 
     document.getElementById("categoryList").appendChild(clonCategories);
 
 }
-/*const filterByCategory = async (category) => {
-    console.log(category);
-    const response = await fetch(`api/Product/?categoryId=${category.categoryId}`);
+const filterByCategory = async (event,category) => {
+    console.log(event.srcElement.id);
+    const response = await fetch(`api/Product/?categoryId=${event.srcElement.id}`);
     if (!response.ok)
         throw new Error(`the connect failed ${response.status}, try again`);
     if (response.status == 204) {
@@ -79,9 +79,9 @@ const drawCategory = (category) => {
     }
     const dataProducts = await response.json();
     drawProducts(dataProducts);
-}*/
-const filterByCategory = async () => {
+}
+/*const filterByCategory = async () => {
   
 
 
-}
+}*/
