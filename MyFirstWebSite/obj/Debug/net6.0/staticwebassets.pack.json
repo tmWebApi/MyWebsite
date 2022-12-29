@@ -145,6 +145,10 @@
       "PackagePath": "staticwebassets\\Scripts\\updateUser.js"
     },
     {
+      "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\‏‏scriptDB.js",
+      "PackagePath": "staticwebassets\\Scripts\\‏‏scriptDB.js"
+    },
+    {
       "Id": "C:\\Users\\User\\Documents\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\ShoppingBag.html",
       "PackagePath": "staticwebassets\\ShoppingBag.html"
     },

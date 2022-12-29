@@ -3,6 +3,10 @@
     const dataCategories = await getallCategories();
     drawCategories(dataCategories);
     drawProducts(dataProducts);
+    if (getCartFromSessionStorage() == null) {
+        saveCartToSessionStorage([]);
+    }
+
 
 });
 const getAllProducts = async () => {
@@ -11,7 +15,7 @@ const getAllProducts = async () => {
         throw new Error(`the connect failed ${response.status}, try again`);
     if (response.status == 204) {
         console.log("no products");
-       // dataProducts = null;
+        drawProducts([]);
         return;
     }
     const dataProducts = await response.json();
@@ -28,10 +32,16 @@ const getallCategories = async () => {
     const dataCategories = await response.json();
     return dataCategories;
 }
+const updateCounterProducts = (numProducts) => {
+    document.getElementById("counter").innerText = numProducts;
+}
+const updateNumProductsInCart = (numProductsInCart) => {
+    document.getElementById("ItemsCountText").innerText = numProductsInCart;
+}
 const drawProducts = (products) => {
     document.getElementById("PoductList").innerHTML = "";
-    console.log(products);
-    if (products != null)
+    updateCounterProducts(products.length);
+    if (products.length > 0)
         products.map(drawProduct);
 }
 const drawProduct = (product) => {
@@ -45,43 +55,85 @@ const drawProduct = (product) => {
     clonProducts.querySelector("button").addEventListener("click", () => {
         addToCart(product)
     });
-
     document.getElementById("PoductList").appendChild(clonProducts);
-
 }
 const addToCart = (product) => {
-    console.log(product);
+    const myCart = getCartFromSessionStorage()
+    myCart.push(product);
+    saveCartToSessionStorage(myCart);
+    updateNumProductsInCart(myCart.length)
+}
+const saveCartToSessionStorage = (myCart) => {
+    console.log(myCart);
+    sessionStorage.setItem("myCart", JSON.stringify(myCart));
+}
+const getCartFromSessionStorage = () => {
+    const myCart = sessionStorage.getItem("myCart");
+    console.log(myCart);
+    return JSON.parse(myCart);
 }
 const drawCategories = (categories) => {
-    categories.map(drawCategory);
+    const categoriesView = categories.map(drawCategory);
 }
-
 const drawCategory = (category) => {
     temp = document.getElementById("temp-category");
     var clonCategories = temp.content.cloneNode(true);
-    clonCategories.querySelector("input").value = false;
+    clonCategories.querySelector("input").value = category.name;
     clonCategories.querySelector("input").id = category.categoryId;
-    clonCategories.querySelector("input").addEventListener('change', (event) => { filterByCategory(event,category) });
+    const chakeCategory = clonCategories.querySelector("input").addEventListener('change', (event) => { filterParams(event, category) });
     clonCategories.querySelector("label").for = category.categoryId;
     clonCategories.querySelector(".OptionName").innerText = category.name;
 
     document.getElementById("categoryList").appendChild(clonCategories);
+}
+const filterParams = async (event, category) => {
+    const categoriesId = filterByCategories();
+    const nameSearch = filterByValue("nameSearch");
+    const minPrice = filterByValue("minPrice");
+    const maxPrice = filterByValue("maxPrice");
+    queryString(categoriesId, nameSearch, minPrice, maxPrice);
+
 
 }
-const filterByCategory = async (event,category) => {
-    console.log(event.srcElement.id);
-    const response = await fetch(`api/Product/?categoryId=${event.srcElement.id}`);
+const filterByValue = (value) => {
+    const valueSearch = document.getElementById(value).value;
+    console.log(valueSearch);
+    return valueSearch;
+}
+const filterByCategories = () => {
+    const categories = document.getElementsByClassName("opt");
+    let checkedCategory = [];
+    for (i = 0; i < categories.length; i++) {
+        if (categories[i].checked) {
+            checkedCategory.push(categories[i].id);
+        }
+
+    }
+    console.log(checkedCategory);
+    return checkedCategory;
+}
+const queryString = (categoriesId = null, name = null, minPrice = null, maxPrice = null) => {
+    let queryString = "";
+    name != null ? queryString += `&name=${name}` : queryString += ``;
+    minPrice != null ? queryString += `&minPrice=${minPrice}` : queryString += ``;
+    maxPrice != null ? queryString += `&maxPrice=${maxPrice}` : queryString += ``;
+    if (categoriesId != null) {
+        categoriesId.forEach(categoryId => {
+            queryString += `&categoryId=${categoryId}`;
+        });
+    }
+    console.log(queryString);
+    filterProducts(queryString);
+}
+const filterProducts = async (queryString) => {
+    const response = await fetch(`api/Product/?${queryString}`);
     if (!response.ok)
         throw new Error(`the connect failed ${response.status}, try again`);
     if (response.status == 204) {
         console.log("no products");
+        drawProducts([]);
         return;
     }
     const dataProducts = await response.json();
     drawProducts(dataProducts);
 }
-/*const filterByCategory = async () => {
-  
-
-
-}*/
