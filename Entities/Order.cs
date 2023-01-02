@@ -18,6 +18,7 @@ namespace Entities
 
         [JsonIgnore]
         public virtual User? User { get; set; } = null!;
-        public virtual ICollection<OrderItem> OrderItems { get; set; }
+
+        public virtual ICollection<OrderItem>? OrderItems { get; set; }
     }
 }

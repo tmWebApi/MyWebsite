@@ -14,6 +14,6 @@ namespace Entities
         public int CategoryId { get; set; }
         public string Name { get; set; } = null!;
         [JsonIgnore]
-        public virtual ICollection<Product> Products { get; set; }
+        public virtual ICollection<Product>? Products { get; set; }
     }
 }

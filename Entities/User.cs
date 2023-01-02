@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace Entities
 {
@@ -21,7 +22,7 @@ namespace Entities
         public string? FirstName { get; set; }
         [StringLength(12, ErrorMessage = "Name length can't be more than 12.")]
         public string? LastName { get; set; }
-
-        public virtual ICollection<Order> Orders { get; set; }
+        [JsonIgnore]
+        public virtual ICollection<Order>? Orders { get; set; }
     }
 }

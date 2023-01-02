@@ -6,8 +6,9 @@
     if (getCartFromSessionStorage() == null) {
         saveCartToSessionStorage([]);
     }
-
-
+    else {
+        addToCart(null);
+    }
 });
 const getAllProducts = async () => {
     const response = await fetch("api/Product");
@@ -59,17 +60,17 @@ const drawProduct = (product) => {
 }
 const addToCart = (product) => {
     const myCart = getCartFromSessionStorage()
-    myCart.push(product);
-    saveCartToSessionStorage(myCart);
+    if (product != null) {
+        myCart.push(product);
+        saveCartToSessionStorage(myCart);
+    }
     updateNumProductsInCart(myCart.length)
 }
 const saveCartToSessionStorage = (myCart) => {
-    console.log(myCart);
     sessionStorage.setItem("myCart", JSON.stringify(myCart));
 }
 const getCartFromSessionStorage = () => {
     const myCart = sessionStorage.getItem("myCart");
-    console.log(myCart);
     return JSON.parse(myCart);
 }
 const drawCategories = (categories) => {
@@ -80,7 +81,7 @@ const drawCategory = (category) => {
     var clonCategories = temp.content.cloneNode(true);
     clonCategories.querySelector("input").value = category.name;
     clonCategories.querySelector("input").id = category.categoryId;
-    const chakeCategory = clonCategories.querySelector("input").addEventListener('change', (event) => { filterParams(event, category) });
+    clonCategories.querySelector("input").addEventListener('change', (event) => { filterParams(event, category) });
     clonCategories.querySelector("label").for = category.categoryId;
     clonCategories.querySelector(".OptionName").innerText = category.name;
 
@@ -112,11 +113,11 @@ const filterByCategories = () => {
     console.log(checkedCategory);
     return checkedCategory;
 }
-const queryString = (categoriesId = null, name = null, minPrice = null, maxPrice = null) => {
+const queryString = (categoriesId = null, name, minPrice, maxPrice) => {
     let queryString = "";
-    name != null ? queryString += `&name=${name}` : queryString += ``;
-    minPrice != null ? queryString += `&minPrice=${minPrice}` : queryString += ``;
-    maxPrice != null ? queryString += `&maxPrice=${maxPrice}` : queryString += ``;
+    name != "" ? queryString += `&name=${name}` : queryString += ``;
+    minPrice != "" ? queryString += `&minPrice=${minPrice}` : queryString += ``;
+    maxPrice != "" ? queryString += `&maxPrice=${maxPrice}` : queryString += ``;
     if (categoriesId != null) {
         categoriesId.forEach(categoryId => {
             queryString += `&categoryId=${categoryId}`;

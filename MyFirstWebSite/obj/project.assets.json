@@ -2114,11 +2114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj",
+      "projectUniqueName": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj",
       "projectName": "MyWebsite",
-      "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj",
+      "projectPath": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj",
       "packagesPath": "C:\\Users\\213292147\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\obj\\",
+      "outputPath": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2139,8 +2139,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj"
+            "M:\\WebAPI\\MyWebsite\\Service\\Service.csproj": {
+              "projectPath": "M:\\WebAPI\\MyWebsite\\Service\\Service.csproj"
             }
           }
         }

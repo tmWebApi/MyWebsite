@@ -1842,11 +1842,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj",
+      "projectUniqueName": "M:\\WebAPI\\MyWebsite\\Service\\Service.csproj",
       "projectName": "Service",
-      "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj",
+      "projectPath": "M:\\WebAPI\\MyWebsite\\Service\\Service.csproj",
       "packagesPath": "C:\\Users\\213292147\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\obj\\",
+      "outputPath": "M:\\WebAPI\\MyWebsite\\Service\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1867,8 +1867,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj": {
-              "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj"
+            "M:\\WebAPI\\MyWebsite\\Respository\\Respository.csproj": {
+              "projectPath": "M:\\WebAPI\\MyWebsite\\Respository\\Respository.csproj"
             }
           }
         }
