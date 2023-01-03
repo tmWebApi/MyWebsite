@@ -5,31 +5,45 @@ const drawCart = () => {
     document.getElementById("tbodyItems").innerHTML = "";
 
     const myCart = getItemFromSessionStorage("myCart");
-    updateItemsCount(myCart.length);
+    const countProducts = sumProducts(myCart);
+    updateElementIdInnerText("itemCount", countProducts);
     const priceProduct = myCart.map(drawProduct);
-    let totalPrice = 0;
-    priceProduct.forEach(price => {
-        totalPrice += price;
-    });
-    updateTotalPrice(totalPrice);
+    const totalAmount = totalAmountPurchase(priceProduct);
+    updateElementIdInnerText("totalAmount", totalAmount);
 
 }
-const drawProduct = (product, i) => {
+const drawProduct = (productQuentity, i) => {
     temp = document.getElementById("temp-row");
     var clonProducts = temp.content.cloneNode(true);
 
+    const product = productQuentity.productType;
     clonProducts.querySelector(".image").style.backgroundImage = `url(../Images/toys/${product.imgUrl})`;
-    clonProducts.querySelector(".itemName").innerHtml = product.name;
+    console.log(product.name);
+    clonProducts.querySelector(".itemName").innerText = product.name;
     clonProducts.querySelector(".price").innerText = "₪" + product.price;
+    clonProducts.querySelector(".productCount").innerText = productQuentity.quentity;
+
     clonProducts.querySelector(".showText").addEventListener('click', () => { removeProductFromCart(i) });
     document.getElementById("tbodyItems").appendChild(clonProducts);
-    return product.price;
+
+    return (product.price * productQuentity.quentity);
 }
-const updateItemsCount = (itemCount) => {
-    document.getElementById("itemCount").innerText = itemCount;
+const totalAmountPurchase = (priceProduct) => {
+    let totalAmount = 0;
+    priceProduct.forEach(price => {
+        totalAmount += price;
+    });
+    return totalAmount;
 }
-const updateTotalPrice = (totalPrice) => {
-    document.getElementById("totalAmount").innerText = totalPrice;
+const sumProducts = (myCart) => {
+    let counter = 0;
+    myCart.forEach((product) => {
+        counter += product.quentity;
+    });
+    return counter;
+}
+const updateElementIdInnerText = (elementId, value) => {
+    document.getElementById(elementId).innerText = value;
 }
 const getTotalPrice = () => {
     return document.getElementById("totalAmount").innerText;
@@ -49,8 +63,8 @@ const getItemFromSessionStorage = (value) => {
 }
 const createOrderItemObject = (product) => {
     const orderItem = {
-        "productId": product.productId,
-        "Quantity": 1
+        "productId": product.productType.productId,
+        "Quantity": product.quentity
     }
     return orderItem;
 }
@@ -66,7 +80,7 @@ const createOrderObject = (userId, price, orderItems) => {
 const placeOrder = async () => {
     //const userId = getItemFromSessionStorage("user").userId;
     //const user = getItemFromSessionStorage("user");
-    const userId = 4 ;//user.userId
+    const userId = 4;//user.userId
     const myCart = getItemFromSessionStorage("myCart");
     const orderItems = myCart.map(createOrderItemObject);
     const totalPrice = getTotalPrice();
@@ -87,6 +101,6 @@ const placeOrder = async () => {
     }
     const newOrder = response.json();
     alert("הזמנתך נקלטה בהצלחה");
-    saveItemToSessionStorage("myCart",[]);
+    saveItemToSessionStorage("myCart", []);
     window.location.href = "Products.html";
 }
