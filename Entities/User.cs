@@ -16,13 +16,13 @@ namespace Entities
         [EmailAddress]
         public string UserName { get; set; } = null!;
 
-        [StringLength(8, ErrorMessage = "Password length can't be more than 8.")]
+        [StringLength(12, ErrorMessage = "Password length can't be more than 8.")]
         public string Password { get; set; } = null!;
         [StringLength(8, ErrorMessage = "Name length can't be more than 8.")]
         public string? FirstName { get; set; }
-        [StringLength(12, ErrorMessage = "Name length can't be more than 12.")]
+        [StringLength(15, ErrorMessage = "Name length can't be more than 12.")]
         public string? LastName { get; set; }
-        [JsonIgnore]
+
         public virtual ICollection<Order>? Orders { get; set; }
     }
 }
