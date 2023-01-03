@@ -25,10 +25,7 @@ namespace MyWebsite.Controllers
         {
            
             User? user = await _userService.getUser(userName, password);
-            //if (user == null)
-            //    return NoContent();
-            //return Ok(user);
-            return user== null ? NotFound() : Ok(user);
+            return user == null ? NotFound() : Ok(user);
         }
 
         // POST api/<UserControllers>
@@ -42,17 +39,17 @@ namespace MyWebsite.Controllers
 
         // PUT api/<UserControllers>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] User updateUser)
+        public async Task Put(int id, [FromBody] User updateUser)
         {
-            _userService.updateUser(id, updateUser);
+             await _userService.updateUser(id, updateUser);
 
         }
 
         // DELETE api/<UserControllers>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            _userService.deleteUser(id);
+            await _userService.deleteUser(id);
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿window.addEventListener('load', async (event) => {
+﻿window.addEventListener('load', async () => {
     const dataProducts = await getAllProducts();
     const dataCategories = await getallCategories();
     drawCategories(dataCategories);
@@ -93,12 +93,9 @@ const filterParams = async (event, category) => {
     const minPrice = filterByValue("minPrice");
     const maxPrice = filterByValue("maxPrice");
     queryString(categoriesId, nameSearch, minPrice, maxPrice);
-
-
 }
 const filterByValue = (value) => {
     const valueSearch = document.getElementById(value).value;
-    console.log(valueSearch);
     return valueSearch;
 }
 const filterByCategories = () => {
@@ -110,7 +107,6 @@ const filterByCategories = () => {
         }
 
     }
-    console.log(checkedCategory);
     return checkedCategory;
 }
 const queryString = (categoriesId = null, name, minPrice, maxPrice) => {
@@ -123,7 +119,6 @@ const queryString = (categoriesId = null, name, minPrice, maxPrice) => {
             queryString += `&categoryId=${categoryId}`;
         });
     }
-    console.log(queryString);
     filterProducts(queryString);
 }
 const filterProducts = async (queryString) => {

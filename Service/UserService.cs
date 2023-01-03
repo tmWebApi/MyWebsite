@@ -29,13 +29,13 @@ namespace Service
             return newUser;
         }
 
-        public void updateUser(int id, User updateUser)
+        public async Task updateUser(int id, User updateUser)
         {
-            _repositoryUser.updateUser(id, updateUser);
+            await _repositoryUser.updateUser(id, updateUser);
         }
-        public void deleteUser(int id)
+        public async Task deleteUser(int id)
         {
-            _repositoryUser.deleteUser(id);
+            await _repositoryUser.deleteUser(id);
         }
 
 

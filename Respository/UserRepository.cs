@@ -32,27 +32,17 @@ namespace Respository
             await _dbContext.SaveChangesAsync();
             return user;
         }
-
-        public void updateUser(int userId, User updateUser)
+        public async Task updateUser(int userId, User newUser)
         {
-            var userToUpdate = _dbContext.Users.Find(userId);
-            if (userToUpdate == null)
-            {
-                return;
-            }
-            _dbContext.Entry(userToUpdate).CurrentValues.SetValues(updateUser);
-            _dbContext.SaveChanges();
+            _dbContext.Users.Update(newUser);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public void deleteUser(int userId)
+        public async Task deleteUser(int userId)
         {
-            var user = _dbContext.Users.Find(userId);
-            if (user == null) 
-            {
-                return;
-            }
-            _dbContext.Users.Remove(user);
-            _dbContext.SaveChanges();
+            
+            //_dbContext.Users.Remove(userId);
+            await _dbContext.SaveChangesAsync();
 
         }
     }
