@@ -6,8 +6,8 @@ namespace Service
     {
         public Task<User?> getUser(string userName, string password);
         Task<User> createUser(User user);
-        void updateUser(int id, User updateUser);
-        void deleteUser(int id);
+        Task updateUser(int id, User updateUser);
+        Task deleteUser(int id);
 
     }
 }

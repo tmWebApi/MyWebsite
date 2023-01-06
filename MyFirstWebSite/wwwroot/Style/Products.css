@@ -1,7 +1,8 @@
-﻿html, body {
-    direction:rtl;
-    margin:0;
-    padding:0;
+﻿html,
+body {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
 }
 
 * {
@@ -9,12 +10,12 @@
     font-family: system-ui;
 }
 
-ul{
-    margin:0;
+ul {
+    margin: 0;
 }
 
-.floatRight{
-    float:right;
+.floatRight {
+    float: right;
 }
 
 .QuickLinks ul li a::after {
@@ -36,19 +37,20 @@ ul{
     margin: auto;
     text-align: center;
     font-family: arial;
-    padding:15px;
-    float:left;
-    height:550px;
-    margin:6px;
+    padding: 15px;
+    float: left;
+    height: 550px;
+    margin: 6px;
 }
 
-.img-w{
-    height:300px;
+.img-w {
+    height: 300px;
 }
 
-p.description{
-    height:65px;
+p.description {
+    height: 65px;
 }
+
 .bar::before {
     content: 'חנות הצעצועים שלי';
     color: white;
@@ -60,6 +62,7 @@ p.description{
     left: 51%;
     font-family: Helvetica;
 }
+
 .price {
     color: grey;
     font-size: 22px;
@@ -80,6 +83,7 @@ p.description{
 .card button:hover {
     opacity: 0.7;
 }
+
 .bar {
     background-color: black;
     height: 35px;
@@ -101,13 +105,14 @@ p.description{
     height: 16px;
 }
 
-    .BagSummary .Icon .ItemCount span {
-        text-align: center;
-        width: 100%;
-        display: block;
-        font-size: 100%;
-        margin-top: -1px;
-    }
+.BagSummary .Icon .ItemCount span {
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 100%;
+    margin-top: -1px;
+}
+
 .goToCart {
     background: #1a6461;
     font-size: 11px;
@@ -118,16 +123,15 @@ p.description{
     padding-top: 6px;
     border: 0;
     text-transform: uppercase;
-    font-family: 'azo-sans',sans-serif;
+    font-family: 'azo-sans', sans-serif;
     border-radius: 3px;
     display: inline-block;
-    float: right;
-    margin:4px;
+    margin: 4px;
 }
 
 .addedToBagDialogue::before {
     background-color: #fff;
-    box-shadow: 2px -2px 2px rgba(0,0,0,.2);
+    box-shadow: 2px -2px 2px rgba(0, 0, 0, .2);
     content: " ";
     display: block;
     height: 15px;
@@ -152,7 +156,7 @@ p.description{
 }
 
 .QuickLinks ul li {
-  float:left;
+    float: left;
 }
 
 
@@ -168,9 +172,10 @@ p.description{
     background-color: rgb(249, 249, 249);
     font-family: Arial;
     font-size: 14px;
-    min-height:100%;
+    min-height: 100%;
 
 }
+
 .nameFilter input {
     width: 70%;
     height: 24px;
@@ -179,8 +184,6 @@ p.description{
 .filterBreak {
     padding-top: 10vh;
 }
-
-
 
 .priceInputText {
     background-color: #fff;
@@ -194,6 +197,7 @@ p.description{
     outline: 0;
 
 }
+
 .priceCurrency {
     position: absolute;
     margin-top: 6.5px;
@@ -206,18 +210,26 @@ p.description{
     display: inline-block;
 }
 
-    .pagination a {
-        color: black;
-        float: left;
-        padding: 8px 16px;
-        text-decoration: none;
-    }
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
 
-        .pagination a.active {
-            background-color: #4CAF50;
-            color: white;
-        }
+}
 
-        .pagination a:hover:not(.active) {
-            background-color: #ddd;
-        }
+a {
+    text-decoration: none;
+}
+.Clear{
+    color: #4D8958;
+}
+
+.pagination a:active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

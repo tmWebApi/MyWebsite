@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BaGOdDuKtG+ZP90w+Zn95I/+LassZVvF6SPnnHB38mQ=",
+  "Hash": "ZvAG9rCcN84IyHcgQCoNu7qiSyodrisEYUXd6h9+HXk=",
   "Source": "MyWebsite",
   "BasePath": "_content/MyWebsite",
   "Mode": "Default",
@@ -34,6 +34,40 @@
       "OriginalItemSpec": "wwwroot\\Images\\BagActive.png"
     },
     {
+      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\clics.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/clics.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\clics.jpg"
+    },
+    {
+      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\clics1.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/clics1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\clics1.jpg"
+    },
+    {
       "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\icn-remove.png",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
@@ -49,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\icn-remove.png"
+    },
+    {
+      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\kpla.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/kpla.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\kpla.jpg"
     },
     {
       "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\searchIcon.svg",

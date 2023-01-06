@@ -14,21 +14,24 @@ namespace MyWebsite.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
-        public UserController(IUserService userService)
+        private readonly ILogger<UserController> _logger;
+
+        public UserController(IUserService userService, ILogger<UserController> logger)
         {
             _userService = userService;
+            _logger = logger;
         }
 
         // GET: api/<UserControllers>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User?>>> Get([FromQuery] string userName, [FromQuery] string password)
         {
-           
+            _logger.LogInformation($"login user {userName} ");
+          
             User? user = await _userService.getUser(userName, password);
-            //if (user == null)
-            //    return NoContent();
-            //return Ok(user);
-            return user== null ? NotFound() : Ok(user);
+            return user == null ? NotFound() : Ok(user);
+            
+          
         }
 
         // POST api/<UserControllers>
@@ -42,17 +45,17 @@ namespace MyWebsite.Controllers
 
         // PUT api/<UserControllers>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] User updateUser)
+        public async Task Put(int id, [FromBody] User updateUser)
         {
-            _userService.updateUser(id, updateUser);
+             await _userService.updateUser(id, updateUser);
 
         }
 
         // DELETE api/<UserControllers>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
-            _userService.deleteUser(id);
+            await _userService.deleteUser(id);
         }
     }
 }

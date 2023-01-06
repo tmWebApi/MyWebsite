@@ -1,14 +1,17 @@
-﻿window.addEventListener('load', async (event) => {
+﻿window.addEventListener('load', async () => {
     const dataProducts = await getAllProducts();
     const dataCategories = await getallCategories();
+
     drawCategories(dataCategories);
     drawProducts(dataProducts);
+
     if (getCartFromSessionStorage() == null) {
         saveCartToSessionStorage([]);
     }
     else {
         addToCart(null);
     }
+
 });
 const getAllProducts = async () => {
     const response = await fetch("api/Product");
@@ -33,40 +36,88 @@ const getallCategories = async () => {
     const dataCategories = await response.json();
     return dataCategories;
 }
-const updateCounterProducts = (numProducts) => {
-    document.getElementById("counter").innerText = numProducts;
+const updateElementIdInnerText = (elementId, value) => {
+    document.getElementById(elementId).innerText = value;
 }
-const updateNumProductsInCart = (numProductsInCart) => {
-    document.getElementById("ItemsCountText").innerText = numProductsInCart;
+const getFilterPrice = (elementId) => {
+    return document.getElementById(elementId).placeholder;
+}
+const updateFilterMinMaxPrice = (price) => {
+    if (getFilterPrice("maxPrice") < price) {
+        document.getElementById("maxPrice").placeholder = price;
+    }
+    else if (getFilterPrice("minPrice") > price) {
+        document.getElementById("minPrice").placeholder = price;
+    }
+}
+const initMinMaxPrice = (min, max) => {
+    document.getElementById("maxPrice").placeholder = max;
+    document.getElementById("minPrice").placeholder = min;
+}
+const createProductObjWithQuentity = (product) => {
+    const productQuentity = {
+        productType: product,
+        quentity: 1
+    }
+    return productQuentity;
 }
 const drawProducts = (products) => {
     document.getElementById("PoductList").innerHTML = "";
-    updateCounterProducts(products.length);
-    if (products.length > 0)
-        products.map(drawProduct);
+    updateElementIdInnerText("counter", products.length);
+    if (products.length > 0) {
+        initMinMaxPrice(10000, 0);
+        const productsWithQuentity = products.map(createProductObjWithQuentity);
+        productsWithQuentity.map(drawProduct);
+    }
+    else
+        initMinMaxPrice(0, 0);
+
 }
-const drawProduct = (product) => {
+const drawProduct = (productQuentity) => {
     temp = document.getElementById("temp-card");
     var clonProducts = temp.content.cloneNode(true);
 
+    const product = productQuentity.productType;
     clonProducts.querySelector("img").src = `..\\Images\\toys\\${product.imgUrl}`;
     clonProducts.querySelector("h1").innerText = product.name;
     clonProducts.querySelector(".price").innerText = "₪" + product.price;
     clonProducts.querySelector(".description").innerText = product.description;
     clonProducts.querySelector("button").addEventListener("click", () => {
-        addToCart(product)
+        addToCart(productQuentity)
     });
+    updateFilterMinMaxPrice(product.price);
     document.getElementById("PoductList").appendChild(clonProducts);
 }
+const sumProducts = (myCart) => {
+    let counter = 0;
+    myCart.forEach((product) => {
+        counter += product.quentity;
+    });
+    return counter;
+}
 const addToCart = (product) => {
-    const myCart = getCartFromSessionStorage()
+    const myCart = getCartFromSessionStorage();
+    let foundSameProduct = false;
     if (product != null) {
-        myCart.push(product);
+        console.log(product.productType);
+        for (let i = 0; i < myCart.length; i++) {
+            const tmpProduct = myCart[i];
+            if (tmpProduct.productType.productId === product.productType.productId) {
+                myCart[i].quentity += 1;
+                foundSameProduct = true;
+            }
+
+        }
+        if (!foundSameProduct) {
+            myCart.push(product);
+        }
         saveCartToSessionStorage(myCart);
     }
-    updateNumProductsInCart(myCart.length)
+    const counter = sumProducts(myCart);
+    updateElementIdInnerText("ItemsCountText", counter)
 }
 const saveCartToSessionStorage = (myCart) => {
+    console.log(myCart);
     sessionStorage.setItem("myCart", JSON.stringify(myCart));
 }
 const getCartFromSessionStorage = () => {
@@ -93,12 +144,9 @@ const filterParams = async (event, category) => {
     const minPrice = filterByValue("minPrice");
     const maxPrice = filterByValue("maxPrice");
     queryString(categoriesId, nameSearch, minPrice, maxPrice);
-
-
 }
 const filterByValue = (value) => {
     const valueSearch = document.getElementById(value).value;
-    console.log(valueSearch);
     return valueSearch;
 }
 const filterByCategories = () => {
@@ -110,7 +158,6 @@ const filterByCategories = () => {
         }
 
     }
-    console.log(checkedCategory);
     return checkedCategory;
 }
 const queryString = (categoriesId = null, name, minPrice, maxPrice) => {
@@ -123,7 +170,6 @@ const queryString = (categoriesId = null, name, minPrice, maxPrice) => {
             queryString += `&categoryId=${categoryId}`;
         });
     }
-    console.log(queryString);
     filterProducts(queryString);
 }
 const filterProducts = async (queryString) => {

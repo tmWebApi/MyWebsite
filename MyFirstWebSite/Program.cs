@@ -2,11 +2,10 @@ using Entities;
 using Microsoft.EntityFrameworkCore;
 using Respository;
 using Service;
-
-string connectionString = @"Data Source=SRV2\PUPILS;Initial Catalog=SalesWebsite;Integrated Security=True;Trusted_Connection=True;";
-//string connectionString = "Data Source=DESKTOP-QBHR7E5\\MSSQLSERVER01;Initial Catalog=ShoppingWebsite;Integrated Security=True;Trusted_Connection=True;";
+using NLog.Web;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Host.UseNLog();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
@@ -22,7 +21,7 @@ builder.Services.AddScoped<IOrderService, OrderService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
-builder.Services.AddDbContext<ShoppingWebsiteContext>(option => option.UseSqlServer(connectionString));
+builder.Services.AddDbContext<ShoppingWebsiteContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("School")));
 
 
 // Add services to the container.

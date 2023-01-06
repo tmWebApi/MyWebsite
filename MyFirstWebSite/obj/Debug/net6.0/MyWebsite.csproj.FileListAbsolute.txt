@@ -288,3 +288,7 @@ C:\Users\213292147\Source\Repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\refint
 C:\Users\213292147\Source\Repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\MyWebsite.pdb
 C:\Users\213292147\Source\Repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\MyWebsite.genruntimeconfig.cache
 C:\Users\213292147\Source\Repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\ref\MyWebsite.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\nlog.config
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.Extensions.Logging.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
