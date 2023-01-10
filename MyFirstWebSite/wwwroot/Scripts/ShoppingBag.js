@@ -2,8 +2,8 @@ window.addEventListener('load', async (event) => {
     drawCart();
 });
 const drawCart = () => {
-    document.getElementById("tbodyItems").innerHTML = "";
 
+    cleanTbodyItems();
     const myCart = getItemFromSessionStorage("myCart");
     const countProducts = sumProducts(myCart);
     updateElementIdInnerText("itemCount", countProducts);
@@ -11,6 +11,9 @@ const drawCart = () => {
     const totalAmount = totalAmountPurchase(priceProduct);
     updateElementIdInnerText("totalAmount", totalAmount);
 
+}
+const cleanTbodyItems = () => {
+    document.getElementById("tbodyItems").innerHTML = "";
 }
 const drawProduct = (productQuentity, i) => {
     temp = document.getElementById("temp-row");
