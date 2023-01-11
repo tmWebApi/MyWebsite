@@ -1,0 +1,12 @@
+M:\WebAPI\MyWebsite\DTO\bin\Debug\net6.0\DTO.deps.json
+M:\WebAPI\MyWebsite\DTO\bin\Debug\net6.0\DTO.dll
+M:\WebAPI\MyWebsite\DTO\bin\Debug\net6.0\DTO.pdb
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.dll
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\refint\DTO.dll
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\DTO.pdb
+M:\WebAPI\MyWebsite\DTO\obj\Debug\net6.0\ref\DTO.dll

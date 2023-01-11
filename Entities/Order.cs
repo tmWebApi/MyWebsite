@@ -16,9 +16,8 @@ namespace Entities
         public double Price { get; set; }
         public int UserId { get; set; }
 
-        [JsonIgnore]
-        public virtual User? User { get; set; } = null!;
+        public virtual User User { get; set; } = null!;
 
-        public virtual ICollection<OrderItem>? OrderItems { get; set; }
+        public virtual ICollection<OrderItem> OrderItems { get; set; }
     }
 }

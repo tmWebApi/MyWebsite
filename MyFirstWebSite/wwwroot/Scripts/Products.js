@@ -1,6 +1,6 @@
 ﻿window.addEventListener('load', async () => {
     const dataProducts = await getAllProducts();
-    const dataCategories = await getallCategories();
+    const dataCategories = await getAllCategories();
 
     drawCategories(dataCategories);
     drawProducts(dataProducts);
@@ -25,7 +25,7 @@ const getAllProducts = async () => {
     const dataProducts = await response.json();
     return dataProducts;
 }
-const getallCategories = async () => {
+const getAllCategories = async () => {
     const response = await fetch("api/Category");
     if (!response.ok)
         throw new Error(`the connect failed ${response.status}, try again`);
@@ -35,31 +35,6 @@ const getallCategories = async () => {
     }
     const dataCategories = await response.json();
     return dataCategories;
-}
-const updateElementIdInnerText = (elementId, value) => {
-    document.getElementById(elementId).innerText = value;
-}
-const getFilterPrice = (elementId) => {
-    return document.getElementById(elementId).placeholder;
-}
-const updateFilterMinMaxPrice = (price) => {
-    if (getFilterPrice("maxPrice") < price) {
-        document.getElementById("maxPrice").placeholder = price;
-    }
-    else if (getFilterPrice("minPrice") > price) {
-        document.getElementById("minPrice").placeholder = price;
-    }
-}
-const initMinMaxPrice = (min, max) => {
-    document.getElementById("maxPrice").placeholder = max;
-    document.getElementById("minPrice").placeholder = min;
-}
-const createProductObjWithQuentity = (product) => {
-    const productQuentity = {
-        productType: product,
-        quentity: 1
-    }
-    return productQuentity;
 }
 const drawProducts = (products) => {
     document.getElementById("PoductList").innerHTML = "";
@@ -88,6 +63,37 @@ const drawProduct = (productQuentity) => {
     updateFilterMinMaxPrice(product.price);
     document.getElementById("PoductList").appendChild(clonProducts);
 }
+const updateElementIdInnerText = (elementId, value) => {
+    document.getElementById(elementId).innerText = value;
+}
+const initMinMaxPrice = (min, max) => {
+    document.getElementById("maxPrice").placeholder = max;
+    document.getElementById("minPrice").placeholder = min;
+}
+const getMaxPrice = () => {
+    return document.getElementById("maxPrice").placeholder;
+}
+const getMinPrice = () => {
+    return document.getElementById("minPrice").placeholder;
+}
+const updateFilterMinMaxPrice = (price) => {
+    if (getMaxPrice() < price) {
+        document.getElementById("maxPrice").placeholder = price;
+    }
+    else if (getMinPrice() > price) {
+        document.getElementById("minPrice").placeholder = price;
+    }
+}
+
+const createProductObjWithQuentity = (product) => {
+    const productQuentity = {
+        productType: product,
+        quentity: 1
+    }
+    return productQuentity;
+}
+
+
 const sumProducts = (myCart) => {
     let counter = 0;
     myCart.forEach((product) => {

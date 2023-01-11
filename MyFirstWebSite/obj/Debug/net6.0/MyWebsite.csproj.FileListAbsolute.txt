@@ -292,3 +292,7 @@ M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\nlog.config
 M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.dll
 M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.Extensions.Logging.dll
 M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.Web.AspNetCore.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\AutoMapper.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\DTO.dll
+M:\WebAPI\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\DTO.pdb

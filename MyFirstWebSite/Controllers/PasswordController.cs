@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using Service;
 using Zxcvbn;
 
@@ -11,9 +12,11 @@ namespace MyWebsite.Controllers
     public class PasswordController : ControllerBase
     {
         private readonly IPasswordService _servicePassword;
-        public PasswordController(IPasswordService servicePassword)
+        private readonly IMapper _mapper;
+        public PasswordController(IPasswordService servicePassword,IMapper mapper)
         {
             _servicePassword = servicePassword;
+            _mapper = mapper;
         }
         
         // POST api/<PasswordController>/validate

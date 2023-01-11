@@ -2,34 +2,31 @@ window.addEventListener('load', async (event) => {
     drawCart();
 });
 const drawCart = () => {
-
     cleanTbodyItems();
-    const myCart = getItemFromSessionStorage("myCart");
+
+    const myCart = getCartFromSessionStorage();
     const countProducts = sumProducts(myCart);
-    updateElementIdInnerText("itemCount", countProducts);
     const priceProduct = myCart.map(drawProduct);
     const totalAmount = totalAmountPurchase(priceProduct);
-    updateElementIdInnerText("totalAmount", totalAmount);
 
-}
-const cleanTbodyItems = () => {
-    document.getElementById("tbodyItems").innerHTML = "";
+    updateAmountElement(totalAmount);
+    updateItemElement(countProducts);
 }
 const drawProduct = (productQuentity, i) => {
     temp = document.getElementById("temp-row");
     var clonProducts = temp.content.cloneNode(true);
 
     const product = productQuentity.productType;
+    const quentity = productQuentity.quentity;
     clonProducts.querySelector(".image").style.backgroundImage = `url(../Images/toys/${product.imgUrl})`;
-    console.log(product.name);
     clonProducts.querySelector(".itemName").innerText = product.name;
-    clonProducts.querySelector(".price").innerText = "₪" + product.price;
-    clonProducts.querySelector(".productCount").innerText = productQuentity.quentity;
+    clonProducts.querySelector(".price").innerText = "₪" + product.price * quentity;
+    clonProducts.querySelector(".productCount").innerText = quentity;
 
     clonProducts.querySelector(".showText").addEventListener('click', () => { removeProductFromCart(i) });
     document.getElementById("tbodyItems").appendChild(clonProducts);
 
-    return (product.price * productQuentity.quentity);
+    return (product.price * quentity);
 }
 const totalAmountPurchase = (priceProduct) => {
     let totalAmount = 0;
@@ -45,46 +42,37 @@ const sumProducts = (myCart) => {
     });
     return counter;
 }
-const updateElementIdInnerText = (elementId, value) => {
-    document.getElementById(elementId).innerText = value;
+const updateItemElement = (itemCount) => {
+    document.getElementById("itemCount").innerText = itemCount;
+}
+const updateAmountElement = (totalAmount) => {
+    document.getElementById("totalAmount").innerText = totalAmount;
 }
 const getTotalPrice = () => {
     return document.getElementById("totalAmount").innerText;
 }
+const cleanTbodyItems = () => {
+    document.getElementById("tbodyItems").innerHTML = "";
+}
+
 const removeProductFromCart = (i) => {
-    const myCart = getItemFromSessionStorage("myCart")
+    const myCart = getCartFromSessionStorage()
     myCart.splice(i, 1);
-    saveItemToSessionStorage("myCart", myCart);
+    saveCartToSessionStorage(myCart);
     drawCart();
 }
-const saveItemToSessionStorage = (value, myCart) => {
-    sessionStorage.setItem(value, JSON.stringify(myCart));
+const saveCartToSessionStorage = (myCart) => {
+    sessionStorage.setItem("myCart", JSON.stringify(myCart));
 }
-const getItemFromSessionStorage = (value) => {
-    const item = sessionStorage.getItem(value);
+const getCartFromSessionStorage = () => {
+    const item = sessionStorage.getItem("myCart");
     return JSON.parse(item);
 }
-const createOrderItemObject = (product) => {
-    const orderItem = {
-        "productId": product.productType.productId,
-        "Quantity": product.quentity
-    }
-    return orderItem;
-}
-const createOrderObject = (userId, price, orderItems) => {
-    const order = {
-        "date": new Date(),
-        "price": price,
-        "userId": userId,
-        "orderItems": orderItems
-    }
-    return order;
-}
 const placeOrder = async () => {
-    //const userId = getItemFromSessionStorage("user").userId;
-    //const user = getItemFromSessionStorage("user");
+    //const userId = getCartFromSessionStorage("user").userId;
+    //const user = getCartFromSessionStorage("user");
     const userId = 4;//user.userId
-    const myCart = getItemFromSessionStorage("myCart");
+    const myCart = getCartFromSessionStorage();
     const orderItems = myCart.map(createOrderItemObject);
     const totalPrice = getTotalPrice();
     const order = createOrderObject(userId, totalPrice, orderItems);
@@ -106,4 +94,20 @@ const placeOrder = async () => {
     alert("הזמנתך נקלטה בהצלחה");
     saveItemToSessionStorage("myCart", []);
     window.location.href = "Products.html";
+}
+const createOrderItemObject = (product) => {
+    const orderItem = {
+        "productId": product.productType.productId,
+        "Quantity": product.quentity
+    }
+    return orderItem;
+}
+const createOrderObject = (userId, price, orderItems) => {
+    const order = {
+        "date": new Date(),
+        "price": price,
+        "userId": userId,
+        "orderItems": orderItems
+    }
+    return order;
 }
