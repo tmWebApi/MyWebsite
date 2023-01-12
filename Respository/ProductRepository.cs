@@ -22,7 +22,9 @@ namespace Respository
             && (minPrice == null ? true : (product.Price >= minPrice))
             && (maxPrice == null ? true : (product.Price <= maxPrice))
             && ((categoryID.Length == 0) ? true : categoryID.Contains(product.CategoryId))
-            );
+            )
+                .OrderBy(product => product.Name)
+                 .Include(product => product.Category);
             IEnumerable<Product>? products = await query.ToArrayAsync();
             return products.Count() < 1 ? null: products;
         }

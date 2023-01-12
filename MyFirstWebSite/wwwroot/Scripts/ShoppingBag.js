@@ -42,6 +42,12 @@ const sumProducts = (myCart) => {
     });
     return counter;
 }
+const removeProductFromCart = (i) => {
+    const myCart = getCartFromSessionStorage()
+    myCart.splice(i, 1);
+    saveCartToSessionStorage(myCart);
+    drawCart();
+}
 const updateItemElement = (itemCount) => {
     document.getElementById("itemCount").innerText = itemCount;
 }
@@ -53,13 +59,6 @@ const getTotalPrice = () => {
 }
 const cleanTbodyItems = () => {
     document.getElementById("tbodyItems").innerHTML = "";
-}
-
-const removeProductFromCart = (i) => {
-    const myCart = getCartFromSessionStorage()
-    myCart.splice(i, 1);
-    saveCartToSessionStorage(myCart);
-    drawCart();
 }
 const saveCartToSessionStorage = (myCart) => {
     sessionStorage.setItem("myCart", JSON.stringify(myCart));
@@ -91,8 +90,8 @@ const placeOrder = async () => {
         return;
     }
     const newOrder = response.json();
-    alert("הזמנתך נקלטה בהצלחה");
-    saveItemToSessionStorage("myCart", []);
+    alert(`הזמנתך התקבלה בהצלחה`);
+    saveCartToSessionStorage([]);
     window.location.href = "Products.html";
 }
 const createOrderItemObject = (product) => {

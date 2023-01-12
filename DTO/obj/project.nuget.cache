@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lkWVSXpj8p80NVQs0Ka4dbp0UuqLLgYwxiyKdGl7mH4G0gpaHB5EPwG6nKjhaNSdFjJsJmCs+O5msTVaWgJClQ==",
+  "dgSpecHash": "CGFKFrfXc9vnp04CThPKUAGGKUaNYFhwThQxGWvqjxFYPgrEoPrRnaE69RvaZUcrCrbk8jtOY+wstqFzFSZM5Q==",
   "success": true,
-  "projectFilePath": "M:\\WebAPI\\MyWebsite\\DTO\\DTO.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\MyWebsite\\DTO\\DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

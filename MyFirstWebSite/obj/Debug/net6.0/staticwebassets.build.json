@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZvAG9rCcN84IyHcgQCoNu7qiSyodrisEYUXd6h9+HXk=",
+  "Hash": "Ebmhou20JshuXL339eH2HMwF0m/HlftjCisq19WmKCw=",
   "Source": "MyWebsite",
   "BasePath": "_content/MyWebsite",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "MyWebsite\\wwwroot",
       "Source": "MyWebsite",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\BagActive.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\BagActive.png",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/BagActive.png",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\BagActive.png"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\clics.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\clics.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/clics.jpg",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\clics.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\clics1.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\clics1.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/clics1.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\clics1.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\icn-remove.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\icn-remove.png",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/icn-remove.png",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\icn-remove.png"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\kpla.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\kpla.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/kpla.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\kpla.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\searchIcon.svg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\searchIcon.svg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/searchIcon.svg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\searchIcon.svg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\Thumbs.db",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\Thumbs.db",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/Thumbs.db",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\Thumbs.db"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys.png",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys.png",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys.png",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys.png"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\4inRow.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\4inRow.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/4inRow.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\4inRow.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\BBQparty.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\BBQparty.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/BBQparty.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\BBQparty.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\bimba.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\bimba.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/bimba.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\bimba.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\blanko.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\blanko.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/blanko.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\blanko.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\BoatAndTubes.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\BoatAndTubes.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/BoatAndTubes.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\BoatAndTubes.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\carTrack.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\carTrack.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/carTrack.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\carTrack.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\chasingRainbows.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\chasingRainbows.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/chasingRainbows.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\chasingRainbows.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\chatterTelephone.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\chatterTelephone.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/chatterTelephone.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\chatterTelephone.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\cheeseRace.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\cheeseRace.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/cheeseRace.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\cheeseRace.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\clinic.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\clinic.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/clinic.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\clinic.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\containerTruck.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\containerTruck.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/containerTruck.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\containerTruck.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\dubel.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\dubel.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/dubel.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\dubel.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\kingOfFalafel.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\kingOfFalafel.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/kingOfFalafel.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\kingOfFalafel.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\LiveInSlots.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\LiveInSlots.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/LiveInSlots.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\LiveInSlots.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\pairOrTin.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\pairOrTin.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/pairOrTin.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\pairOrTin.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\PoliceBoat.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\PoliceBoat.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/PoliceBoat.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\PoliceBoat.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\prisonerPolice.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\prisonerPolice.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/prisonerPolice.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\prisonerPolice.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\race.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\race.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/race.jpg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\race.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\ringStacking.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\ringStacking.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/ringStacking.jpg",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\ringStacking.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\rummikub.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\rummikub.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/rummikub.jpg",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\rummikub.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\submarine.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\submarine.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/submarine.jpg",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\submarine.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\sudoku.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\sudoku.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/sudoku.jpg",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\sudoku.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\sweets.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\sweets.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/sweets.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\sweets.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\tractor.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\tractor.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/tractor.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\tractor.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\whatTurtle.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\whatTurtle.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/whatTurtle.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\whatTurtle.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\woodenBoard.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\woodenBoard.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/woodenBoard.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\woodenBoard.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\yellowBus.jpg",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\yellowBus.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Images/toys/yellowBus.jpg",
       "AssetKind": "All",
@@ -612,12 +612,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\yellowBus.jpg"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Login.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\login.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Login.html",
+      "RelativePath": "login.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,13 +626,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Login.html"
+      "OriginalItemSpec": "wwwroot\\login.html"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Products.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Products.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Products.html",
       "AssetKind": "All",
@@ -646,12 +646,12 @@
       "OriginalItemSpec": "wwwroot\\Products.html"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\Login.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\login.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Scripts/Login.js",
+      "RelativePath": "Scripts/login.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\Login.js"
+      "OriginalItemSpec": "wwwroot\\Scripts\\login.js"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\Products.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\Products.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Scripts/Products.js",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\Products.js"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\‏‏scriptDB.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\‏‏scriptDB.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Scripts/‏‏scriptDB.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\‏‏scriptDB.js"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\ShoppingBag.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\ShoppingBag.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Scripts/ShoppingBag.js",
       "AssetKind": "All",
@@ -714,12 +714,12 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\ShoppingBag.js"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\UpdateUser.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\updateUser.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Scripts/UpdateUser.js",
+      "RelativePath": "Scripts/updateUser.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -728,13 +728,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\UpdateUser.js"
+      "OriginalItemSpec": "wwwroot\\Scripts\\updateUser.js"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\ShoppingBag.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\ShoppingBag.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "ShoppingBag.html",
       "AssetKind": "All",
@@ -748,12 +748,12 @@
       "OriginalItemSpec": "wwwroot\\ShoppingBag.html"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Login.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\login.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Style/Login.css",
+      "RelativePath": "Style/login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -762,13 +762,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Style\\Login.css"
+      "OriginalItemSpec": "wwwroot\\Style\\login.css"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Products.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Products.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Style/Products.css",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Style\\Products.css"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\ShoppingBag.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\ShoppingBag.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
       "RelativePath": "Style/ShoppingBag.css",
       "AssetKind": "All",
@@ -799,12 +799,12 @@
       "OriginalItemSpec": "wwwroot\\Style\\ShoppingBag.css"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\UpdateUser.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\updateUser.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Style/UpdateUser.css",
+      "RelativePath": "Style/updateUser.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,15 +813,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Style\\UpdateUser.css"
+      "OriginalItemSpec": "wwwroot\\Style\\updateUser.css"
     },
     {
-      "Identity": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\UpdateUser.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\updateUser.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
-      "ContentRoot": "M:\\WebAPI\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "UpdateUser.html",
+      "RelativePath": "updateUser.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,7 +830,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\UpdateUser.html"
+      "OriginalItemSpec": "wwwroot\\updateUser.html"
     }
   ]
 }

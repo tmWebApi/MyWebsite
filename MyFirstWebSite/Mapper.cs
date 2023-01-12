@@ -12,7 +12,10 @@ namespace MyWebsite
 
             CreateMap<User, UserWithoutPasswordDTO > ();
 
-            CreateMap<Product, ProductDTO>().ReverseMap();
+            CreateMap<Product, ProductDTO>()
+                .ForMember(dest => dest.CategoryName, 
+                opt => opt.MapFrom(src => src.Category.Name))
+                .ReverseMap();
 
             CreateMap<Category, CategoryDTO>().ReverseMap();
 
