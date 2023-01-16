@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ebmhou20JshuXL339eH2HMwF0m/HlftjCisq19WmKCw=",
+  "Hash": "x+gca+eedb61nzMxT/2miyAVA4Gr5+rT+bSv5d7X4tI=",
   "Source": "MyWebsite",
   "BasePath": "_content/MyWebsite",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\kpla.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\minus.png",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/minus.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\minus.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\plus.png",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/plus.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\plus.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\searchIcon.svg",
@@ -610,6 +644,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\toys\\yellowBus.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\userIcon.png",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/userIcon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\userIcon.png"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\login.html",

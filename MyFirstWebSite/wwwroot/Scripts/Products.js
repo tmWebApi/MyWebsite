@@ -48,6 +48,20 @@ const drawProducts = (products) => {
         initMinMaxPrice(0, 0);
 
 }
+const changeQuentityProduct = (product, amount) => {
+    const minQuentity = 1;
+    const maxQuentity = 20;
+    const quentityAfterChange = product.quentity + amount;
+    if (minQuentity <= quentityAfterChange && quentityAfterChange <= maxQuentity) {
+        product.quentity = quentityAfterChange;
+        return true;
+    }
+    return false;
+}
+const updateQuentity = (elementId, amount) => {    
+    const quentityProduct = (Number)(document.getElementById(elementId).innerText);
+    document.getElementById(elementId).innerText = quentityProduct + amount;
+}
 const drawProduct = (productQuentity) => {
     temp = document.getElementById("temp-card");
     var clonProducts = temp.content.cloneNode(true);
@@ -57,6 +71,17 @@ const drawProduct = (productQuentity) => {
     clonProducts.querySelector("h1").innerText = product.name;
     clonProducts.querySelector(".price").innerText = "₪" + product.price;
     clonProducts.querySelector(".description").innerText = product.description;
+    clonProducts.querySelector("#quentityProduct").innerText = productQuentity.quentity;
+    clonProducts.querySelector("#quentityProduct").id += product.productId;
+
+    clonProducts.querySelector("#minus").addEventListener("click", () => {
+        if (changeQuentityProduct(productQuentity, -1))
+            updateQuentity(`quentityProduct${product.productId}`, -1)
+    });
+    clonProducts.querySelector("#plus").addEventListener("click", () => {
+        if (changeQuentityProduct(productQuentity, 1))
+            updateQuentity(`quentityProduct${product.productId}`, 1)
+    });
     clonProducts.querySelector("button").addEventListener("click", () => {
         addToCart(productQuentity)
     });
@@ -84,7 +109,6 @@ const updateFilterMinMaxPrice = (price) => {
         document.getElementById("minPrice").placeholder = price;
     }
 }
-
 const createProductObjWithQuentity = (product) => {
     const productQuentity = {
         productType: product,
@@ -92,8 +116,6 @@ const createProductObjWithQuentity = (product) => {
     }
     return productQuentity;
 }
-
-
 const sumProducts = (myCart) => {
     let counter = 0;
     myCart.forEach((product) => {
@@ -123,7 +145,6 @@ const addToCart = (product) => {
     updateElementIdInnerText("ItemsCountText", counter)
 }
 const saveCartToSessionStorage = (myCart) => {
-    console.log(myCart);
     sessionStorage.setItem("myCart", JSON.stringify(myCart));
 }
 const getCartFromSessionStorage = () => {

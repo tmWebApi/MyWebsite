@@ -25,6 +25,14 @@
       "PackagePath": "staticwebassets\\Images\\kpla.jpg"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\minus.png",
+      "PackagePath": "staticwebassets\\Images\\minus.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\plus.png",
+      "PackagePath": "staticwebassets\\Images\\plus.png"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\searchIcon.svg",
       "PackagePath": "staticwebassets\\Images\\searchIcon.svg"
     },
@@ -139,6 +147,10 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\yellowBus.jpg",
       "PackagePath": "staticwebassets\\Images\\toys\\yellowBus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\userIcon.png",
+      "PackagePath": "staticwebassets\\Images\\userIcon.png"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Products.html",
