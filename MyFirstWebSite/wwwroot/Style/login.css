@@ -1,134 +1,217 @@
-﻿*,
-*:before,
-*:after {
-    padding: 0;
+﻿* {
     margin: 0;
-    box-sizing: border-box;
+    padding: 0;
 }
-
-body {
-    background-color: #080710;
+body{
+    font: 11px sans-serif;
 }
-
-.background {
-    width: 430px;
-    height: 520px;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    left: 50%;
-    top: 50%;
-}
-
-    .background .shape {
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        border-radius: 50%;
-    }
-
-.shape:first-child {
-    background: linear-gradient( #1845ad, #23a2f6 );
-    left: -80px;
-    top: -80px;
-}
-
-.shape:last-child {
-    background: linear-gradient( to right, #ff512f, #f09819 );
-    right: -30px;
-    bottom: -80px;
-}
-
-.form {
-    height: 520px;
-    width: 400px;
-    background-color: rgba(255,255,255,0.13);
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
-    border-radius: 10px;
-    backdrop-filter: blur(10px);
-    border: 2px solid rgba(255,255,255,0.1);
-    box-shadow: 0 0 40px rgba(8,7,16,0.6);
-    padding: 50px 35px;
-}
-
-    .form * {
-        font-family: 'Poppins',sans-serif;
-        color: #ffffff;
-        letter-spacing: 0.5px;
-        outline: none;
-        border: none;
-    }
-
-    .form h3 {
-        font-size: 32px;
-        font-weight: 500;
-        line-height: 42px;
-        text-align: center;
-    }
-
-label {
+div{
     display: block;
-    margin-top: 30px;
-    font-size: 16px;
+}
+#mainContent, .HeaderSpacer {
+    width: 964px;
+    margin: 0 auto;
+    color: #000;
+}
+#mainContent {
+    font-family: "azo-sans",sans-serif;
+    padding: 0 32px 40px 32px;
+}
+#mainContent form .row .inputOuter.passwordOuter {
+    max-width: 345px;
+    min-height: 38px;
+}
+[dir=rtl] #mainContent #pri {
+    float: right;
+}
+
+#mainContent #pri {
+    margin-top: 16px;
+    width: 530px;
+}
+
+#mainContent .inputOuter, .ui-dialog .inputOuter {
+    padding: 0 0 8px 0;
+    position: relative;
+}
+#mainContent form .row .inputOuter.passwordOuter {
+    max-width: 345px;
+    min-height: 38px;
+}
+
+#mainContent .inputOuter, .ui-dialog .inputOuter {
+    padding: 0 0 8px 0;
+    position: relative;
+}
+#mainContent .row .inputOuter input {
+    height: 32px;
+    padding: 2px 3px 2px 33px;
+    outline: 0;
+    margin-top: 0;
+    line-height: 32px;
+}
+#mainContent .inputOuter input, .ui-dialog .inputOuter input {
+    font-size: 14px;
+    width: 331px;
+    border: 1px solid #c9c9c9;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+#mainContent .SignInContainer .nxbtn.large.secondary {
+    height: 48px;
+    width: 369px;
+    font-family: 'azo-sans',sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-align: center;
+    color: #fff;
+    background-color: #1a6461;
+    margin-top: 16px;
+    border: #1a6461;
+}
+input, select {
+    vertical-align: middle;
+}
+.nxbtn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 4px 10px;
+}
+#mainContent .row .inputOuter.passwordOuter .ShowPasswordOuter a.ShowPassword {
+    background-color: #f8f8f8;
+    border: 1px solid #c9c9c9;
+    border-right: none;
+    min-width: 50px;
+    position: relative;
+    color: #000;
+    text-align: center;
+    height: 25px;
+    padding: 10px 8px 1px 8px;
+    font-size: 10px;
+}
+
+
+#mainContent.pw ul.tabs li.three {
+    width: 284px;
+}
+.SignInContainer{
+    background-color: #f8f8f8;
+    padding: 31px;
+    width: 389px;
+    height: 400px;
+    margin-top: 100px;
+    margin-right: 40px;
+    border-bottom: 1px solid #e4e4e4;
+}
+.ShowPasswordOuter {
+    float: left;
+    position: absolute;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    line-height: 1.3em;
+}
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+#mainContent .row label {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: #000;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+#mainContent h2 {
+    font: 12px/1.3 Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 0.5em;
+    max-width: 464px;
+    position: relative;
+}
+#mainContent h2 span {
+    color: #999;
+    position: relative;
+    top: auto;
+    left: auto;
+    font-weight: 0px;
+    font-size: 32px;
+    text-transform: uppercase;
+    right: 5px;
+}
+#mainContent #sec {
+    width: 415px;
+}
+#mainContent #nur, #mainContent #pri, #mainContent #sec, #mainContent #ter {
+    position: relative;
+    float: right;
+}
+#mainContent #sec .SecondaryContainer {
+    margin-top: 40px;
+    padding: 10px 0;
+    text-align: center;
+}
+#mainContent h2 {
+    font-size: 32px;
     font-weight: 500;
 }
 
-input {
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-color: rgba(255,255,255,0.07);
-    border-radius: 3px;
-    padding: 0 10px;
+#mainContent h2, #mainContent h1 {
+    background: none;
+    margin-bottom: 0;
+    padding: 0;
+    font-family: "azo-sans",sans-serif;
+}
+#mainContent h2 {
+    font: 32px;
+    text-transform: uppercase;
+    max-width: 464px;
+    position: relative;
+}
+#mainContent h2 span {
+    color: #999;
+    position: relative;
+    top: auto;
+    left: auto;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+#mainContent #sec .SecondaryContainer .nxbtn.primary.large {
+    height: 48px;
     margin-top: 8px;
+    color: #fff;
+    font-family: 'azo-sans',sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    vertical-align: middle;
+    line-height: 48px;
+    text-align: center;
+    padding: 0 0 0 0;
+    width: 369px;
+    background: #222;
     font-size: 14px;
-    font-weight: 300;
+    letter-spacing: 1.6px;
 }
-
-::placeholder {
-    color: #e5e5e5;
-}
-
-button {
-    margin-top: 50px;
-    width: 100%;
-    background-color: #ffffff;
-    color: #080710;
-    padding: 15px 0;
-    font-size: 18px;
-    font-weight: 600;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.social {
-    margin-top: 30px;
-    display: flex;
-}
-
-    .social div {
-        background: red;
-        width: 150px;
-        border-radius: 3px;
-        padding: 5px 10px 10px 5px;
-        background-color: rgba(255,255,255,0.27);
-        color: #eaf0fb;
-        text-align: center;
-    }
-
-        .social div:hover {
-            background-color: rgba(255,255,255,0.47);
-        }
-
-    .social .fb {
-        margin-left: 25px;
-    }
-
-    .social i {
-        margin-right: 4px;
-    }
-#login{
-    color:black;
+#mainContent #sec  {
+    top: -400px;
+    left: -600px;
 }

@@ -4,8 +4,8 @@ const saveInSessionStorage = (data) => {
 }
 
 const connect = async () => {
-    const userName = document.getElementById("userName").value;
-    const password = document.getElementById("password").value;
+    const userName = document.getElementById("Email").value;
+    const password = document.getElementById("Password").value;
 
     const response = await fetch(`api/user?userName=${userName}&password=${password}`);
     if (!response.ok)
@@ -17,7 +17,7 @@ const connect = async () => {
 
     const data = await response.json();
     saveInSessionStorage(data);
-    window.location.href = "updateUser.html";
+    window.location.href = "ShoppingBag.html";
 
 }
 

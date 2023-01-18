@@ -379,3 +379,7 @@ C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\refint\MyWe
 C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\MyWebsite.pdb
 C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\MyWebsite.genruntimeconfig.cache
 C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\obj\Debug\net6.0\ref\MyWebsite.dll
+C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\MailKit.dll
+C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\MimeKit.dll
+C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\NLog.MailKit.dll
+C:\Users\User\source\repos\MyWebsite\MyFirstWebSite\bin\Debug\net6.0\BouncyCastle.Crypto.dll

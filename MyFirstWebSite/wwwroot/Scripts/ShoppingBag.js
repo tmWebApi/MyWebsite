@@ -12,21 +12,21 @@ const drawCart = () => {
     updateAmountElement(totalAmount);
     updateItemElement(countProducts);
 }
-const drawProduct = (productQuentity, i) => {
+const drawProduct = (productQuantity, i) => {
     temp = document.getElementById("temp-row");
     var clonProducts = temp.content.cloneNode(true);
 
-    const product = productQuentity.productType;
-    const quentity = productQuentity.quentity;
+    const product = productQuantity.productType;
+    const quantity = productQuantity.quantity;
     clonProducts.querySelector(".image").style.backgroundImage = `url(../Images/toys/${product.imgUrl})`;
     clonProducts.querySelector(".itemName").innerText = product.name;
-    clonProducts.querySelector(".price").innerText = "₪" + product.price * quentity;
-    clonProducts.querySelector(".productCount").innerText = quentity;
+    clonProducts.querySelector(".price").innerText = "₪" + product.price * quantity;
+    clonProducts.querySelector(".productCount").innerText = quantity;
 
     clonProducts.querySelector(".showText").addEventListener('click', () => { removeProductFromCart(i) });
     document.getElementById("tbodyItems").appendChild(clonProducts);
 
-    return (product.price * quentity);
+    return (product.price * quantity);
 }
 const totalAmountPurchase = (priceProduct) => {
     let totalAmount = 0;
@@ -38,7 +38,7 @@ const totalAmountPurchase = (priceProduct) => {
 const sumProducts = (myCart) => {
     let counter = 0;
     myCart.forEach((product) => {
-        counter += product.quentity;
+        counter += product.quantity;
     });
     return counter;
 }
@@ -67,10 +67,12 @@ const getCartFromSessionStorage = () => {
     const item = sessionStorage.getItem("myCart");
     return JSON.parse(item);
 }
+const getUserFromSessionStorage = () => {
+    const user = sessionStorage.getItem("user");
+    return JSON.parse(user);
+}
 const placeOrder = async () => {
-    //const userId = getCartFromSessionStorage("user").userId;
-    //const user = getCartFromSessionStorage("user");
-    const userId = 4;//user.userId
+    const userId = getUserFromSessionStorage("user").userId;
     const myCart = getCartFromSessionStorage();
     const orderItems = myCart.map(createOrderItemObject);
     const totalPrice = getTotalPrice();
@@ -97,7 +99,7 @@ const placeOrder = async () => {
 const createOrderItemObject = (product) => {
     const orderItem = {
         "productId": product.productType.productId,
-        "Quantity": product.quentity
+        "Quantity": product.quantity
     }
     return orderItem;
 }

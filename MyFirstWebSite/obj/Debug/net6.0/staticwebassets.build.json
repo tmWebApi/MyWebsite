@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "x+gca+eedb61nzMxT/2miyAVA4Gr5+rT+bSv5d7X4tI=",
+  "Hash": "AwbkLwvEoKJEofAlQlJMG7ylMgVnK013WIM+8yzkSpM=",
   "Source": "MyWebsite",
   "BasePath": "_content/MyWebsite",
   "Mode": "Default",
@@ -340,6 +340,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\cheeseRace.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\children'sRoom.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/toys/children'sRoom.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\toys\\children'sRoom.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\clinic.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
@@ -374,6 +391,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\containerTruck.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\d.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/toys/d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\toys\\d.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\dubel.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
@@ -391,6 +425,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\dubel.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\garage.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/toys/garage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\toys\\garage.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\kingOfFalafel.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
@@ -406,6 +457,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\toys\\kingOfFalafel.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\kitchen.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/toys/kitchen.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\toys\\kitchen.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\LiveInSlots.jpg",
@@ -527,6 +595,23 @@
       "OriginalItemSpec": "wwwroot\\Images\\toys\\rummikub.jpg"
     },
     {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\sportsHall.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/toys/sportsHall.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\toys\\sportsHall.jpg"
+    },
+    {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\submarine.jpg",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
@@ -593,6 +678,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\toys\\tractor.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\waterPark.jpg",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Images/toys/waterPark.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\toys\\waterPark.jpg"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\whatTurtle.jpg",
@@ -663,12 +765,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\userIcon.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\login.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Login.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "login.html",
+      "RelativePath": "Login.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -677,7 +779,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\login.html"
+      "OriginalItemSpec": "wwwroot\\Login.html"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\LoginNext.html",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "LoginNext.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\LoginNext.html"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\login-old.html",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "login-old.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\login-old.html"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Products.html",
@@ -697,12 +833,12 @@
       "OriginalItemSpec": "wwwroot\\Products.html"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\login.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\Login.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Scripts/login.js",
+      "RelativePath": "Scripts/Login.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -711,7 +847,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\login.js"
+      "OriginalItemSpec": "wwwroot\\Scripts\\Login.js"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\Products.js",
@@ -799,12 +935,12 @@
       "OriginalItemSpec": "wwwroot\\ShoppingBag.html"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\login.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Login.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Style/login.css",
+      "RelativePath": "Style/Login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -813,7 +949,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Style\\login.css"
+      "OriginalItemSpec": "wwwroot\\Style\\Login.css"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Products.css",

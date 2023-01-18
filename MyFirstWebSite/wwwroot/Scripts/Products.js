@@ -38,58 +38,61 @@ const getAllCategories = async () => {
 }
 const drawProducts = (products) => {
     document.getElementById("PoductList").innerHTML = "";
-    updateElementIdInnerText("counter", products.length);
+    updateCountProduct(products.length);
     if (products.length > 0) {
         initMinMaxPrice(10000, 0);
-        const productsWithQuentity = products.map(createProductObjWithQuentity);
-        productsWithQuentity.map(drawProduct);
+        const productsWithQuantity = products.map(createProductObjWithQuantity);
+        productsWithQuantity.map(drawProduct);
     }
     else
         initMinMaxPrice(0, 0);
 
 }
-const changeQuentityProduct = (product, amount) => {
-    const minQuentity = 1;
-    const maxQuentity = 20;
-    const quentityAfterChange = product.quentity + amount;
-    if (minQuentity <= quentityAfterChange && quentityAfterChange <= maxQuentity) {
-        product.quentity = quentityAfterChange;
+const changeQuantityProduct = (product, amount) => {
+    const minQuantity = 0;
+    const maxQuantity = 20;
+    const quantityAfterChange = product.quantity + amount;
+    if (minQuantity <= quantityAfterChange && quantityAfterChange <= maxQuantity) {
+        product.quantity = quantityAfterChange;
         return true;
     }
     return false;
 }
-const updateQuentity = (elementId, amount) => {    
-    const quentityProduct = (Number)(document.getElementById(elementId).innerText);
-    document.getElementById(elementId).innerText = quentityProduct + amount;
+const updateQuantityProduct = (elementId, amount) => {
+    const quantityProduct = (Number)(document.getElementById(elementId).innerText);
+    document.getElementById(elementId).innerText = quantityProduct + amount;
 }
-const drawProduct = (productQuentity) => {
+const drawProduct = (productQuantity) => {
     temp = document.getElementById("temp-card");
     var clonProducts = temp.content.cloneNode(true);
 
-    const product = productQuentity.productType;
+    const product = productQuantity.productType;
     clonProducts.querySelector("img").src = `..\\Images\\toys\\${product.imgUrl}`;
     clonProducts.querySelector("h1").innerText = product.name;
     clonProducts.querySelector(".price").innerText = "₪" + product.price;
     clonProducts.querySelector(".description").innerText = product.description;
-    clonProducts.querySelector("#quentityProduct").innerText = productQuentity.quentity;
-    clonProducts.querySelector("#quentityProduct").id += product.productId;
+    clonProducts.querySelector("#quantityProduct").innerText = productQuantity.quantity;
+    clonProducts.querySelector("#quantityProduct").id += product.productId;
 
     clonProducts.querySelector("#minus").addEventListener("click", () => {
-        if (changeQuentityProduct(productQuentity, -1))
-            updateQuentity(`quentityProduct${product.productId}`, -1)
+        if (changeQuantityProduct(productQuantity, -1))
+            updateQuantityProduct(`quantityProduct${product.productId}`, -1)
     });
     clonProducts.querySelector("#plus").addEventListener("click", () => {
-        if (changeQuentityProduct(productQuentity, 1))
-            updateQuentity(`quentityProduct${product.productId}`, 1)
+        if (changeQuantityProduct(productQuantity, 1))
+            updateQuantityProduct(`quantityProduct${product.productId}`, 1)
     });
     clonProducts.querySelector("button").addEventListener("click", () => {
-        addToCart(productQuentity)
+        addToCart(productQuantity)
     });
     updateFilterMinMaxPrice(product.price);
     document.getElementById("PoductList").appendChild(clonProducts);
 }
-const updateElementIdInnerText = (elementId, value) => {
-    document.getElementById(elementId).innerText = value;
+const updateCountProduct = (counter) => {
+    document.getElementById("counter").innerText = counter;
+}
+const updateItemsCountText = (itemsCount) => {
+    document.getElementById("ItemsCountText").innerText = itemsCount;
 }
 const initMinMaxPrice = (min, max) => {
     document.getElementById("maxPrice").placeholder = max;
@@ -109,17 +112,17 @@ const updateFilterMinMaxPrice = (price) => {
         document.getElementById("minPrice").placeholder = price;
     }
 }
-const createProductObjWithQuentity = (product) => {
-    const productQuentity = {
+const createProductObjWithQuantity = (product) => {
+    const productQuantity = {
         productType: product,
-        quentity: 1
+        quantity: 1
     }
-    return productQuentity;
+    return productQuantity;
 }
 const sumProducts = (myCart) => {
     let counter = 0;
     myCart.forEach((product) => {
-        counter += product.quentity;
+        counter += product.quantity;
     });
     return counter;
 }
@@ -127,14 +130,19 @@ const addToCart = (product) => {
     const myCart = getCartFromSessionStorage();
     let foundSameProduct = false;
     if (product != null) {
-        console.log(product.productType);
         for (let i = 0; i < myCart.length; i++) {
             const tmpProduct = myCart[i];
             if (tmpProduct.productType.productId === product.productType.productId) {
-                myCart[i].quentity += 1;
+                const productQuantity = product.quantity;
+                if (productQuantity <= 0) {
+                    myCart.splice(i, 1);
+                }
+                else {
+                    myCart[i].quantity = productQuantity;
+
+                }
                 foundSameProduct = true;
             }
-
         }
         if (!foundSameProduct) {
             myCart.push(product);
@@ -142,8 +150,31 @@ const addToCart = (product) => {
         saveCartToSessionStorage(myCart);
     }
     const counter = sumProducts(myCart);
-    updateElementIdInnerText("ItemsCountText", counter)
+    updateItemsCountText(counter)
 }
+// const addToCart = (product) => {
+//     if (!product) {
+//         return;
+//     }
+
+//     const myCart = getCartFromSessionStorage();
+//     const existingProductIndex = myCart.findIndex(p => p.productType.productId === product.productType.productId);
+//     if (existingProductIndex !== -1) {
+//         // Update quantity if product is already in cart
+//         if (product.quantity <= 0) {
+//             myCart.splice(existingProductIndex, 1);
+//         } else {
+//             myCart[existingProductIndex].quantity = product.quantity;
+//         }
+//     } else {
+//         // Add product to cart if not already in cart
+//         myCart.push(product);
+//     }
+
+//     saveCartToSessionStorage(myCart);
+//     updateItemsCountText(sumProducts(myCart));
+// }
+
 const saveCartToSessionStorage = (myCart) => {
     sessionStorage.setItem("myCart", JSON.stringify(myCart));
 }

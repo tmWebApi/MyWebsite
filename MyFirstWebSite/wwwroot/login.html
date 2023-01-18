@@ -1,49 +1,88 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
-    <title>login</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Style/Products.css" rel="stylesheet" />
     <link href="../Style/Login.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="../Image/toys.png">
 
+    <link rel="icon" type="image/x-icon" href="../Images/toys.png">
+    <title>New Login</title>
 </head>
+
 <body>
-    <div class="background">
+    <header>
+        <div class="bar">
+            <section class="QuickLinks">
+                <ul>
+                    <li>
+                        <a href="Products.html" title="חזרה לאתר">חזרה לאתר</a>
+                    </li>
+                    <li>
+                        <a  title="חזרה לאתר"></a>
+                    </li>
+     
+                </ul>
+            </section>
 
-        <div class="shape"></div>
-        <div class="shape"></div>
-    </div>
-    <div class="form">
-        <h3>Login Here</h3>
 
-        <label for="userName">Username</label>
-        <input type="text" placeholder="Email" id="userName">
-
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" id="password">
-
-        <button id="login" onclick="connect()">Log In</button>
-        <div class="social">
 
         </div>
-        <div id="newUser">
-            <label for="newUserName">Username</label>
-            <input type="text" id="newUserName" />
-            <label for="newUserPassword">Password</label>
-            <input type="password" id="newUserPassword" onblur="checkPassword()" />
-            <span id="score"></span>
-            <span id="massegePassword"></span>
-            <progress id="progress"></progress>
-            <label for="newUserFirstName">first name</label>
-            <input type="text" id="newUserFirstName" />
-            <label for="">last name</label>
-            <input type="text" id="newUserLastName" />
-            <button onclick="addNewUser()" style="color:black">Register</button>
+    </header>
+    <div id="mainContent" class="login pw MainContent ">
+        <div class="SignInContainer ">
+            <h2>
+                <span class="customerText">התחברות</span>
+            </h2>
+            <div class="SignInTo">
+                <h1>לקוחות קיימים</h1>
+            </div>
+            <div id="form">
+                <div id="passwordLogin">
+                    <div class="row">
+
+                        <label for="EmailOrAccountNumber">כתובת דוא"ל</label>
+                        <div id="emailOuter" class="inputOuter">
+                            <input data-val="true" id="Email" name="EmailOrAccountNumber" tabindex="10" type="text" value="" />
+                            <table class="inputMessage  right">
+                                <tr>
+                                    <td id="EmailOrAccountNumber-validation-message"></td>
+                                </tr>
+                            </table>
+                            <div class="messageArrow "></div>
+                            <div class="fldFlag"></div>
+                        </div>
+                    </div>
+                    <div class="row underline">
+                        <label for="Password">הסיסמה שלך</label>
+                        <div class="inputOuter passwordOuter">
+                            <div class="passwordInner">
+                                <input class="password" data-val="true" data-val-required="הזן את הסיסמה שלך"
+                                    id="Password" maxlength="24" minlength="5" name="Password" tabindex="30"
+                                    type="password" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <input type="button" class="nxbtn secondary large btn-sign-in" name="SignInNow" id="SignInNow"
+                    value="התחבר" onclick="connect()" />
+            </div>
+        </div>
+        <div id="sec">
+            <div class="SecondaryContainer">
+                <h2><span>לקוח חדש </span>
+                </h2>
+                <a href="Registration.html" data-ga-guest-label="Sign-up-now"
+                    class="nxbtn primary large guest-checkout__login-button"><span
+                        class="guest-checkout__login-button-text">הירשם עכשיו</span>
+                </a>
+
+            </div>
         </div>
     </div>
-
     <script src="../Scripts/Login.js"></script>
 </body>
-</html>
 
+</html>

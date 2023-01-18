@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Login</title>
+    <link href="../Style/Login.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="./Images/toys.png">
+</head>
+
+<body>
+    <div>
+        <div class="login-wrap">
+            <div class="login-html">
+                <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Sign
+                    In</label>
+                <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Sign Up</label>
+                <div class="login-form">
+                    <div class="sign-in-htm">
+                        <div class="group">
+                            <label for="userName" class="label">Username</label>
+                            <input type="text" placeholder="Email" id="userName" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="password" class="label">Password</label>
+                            <input type="password" placeholder="Password" id="password" class="input" />
+                        </div>
+                        <div>
+                            <div class="group">
+                                <button id="login" class="button" onclick="connect()">Log In</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sign-up-htm">
+                        <div class="group">
+                            <label for="newUserName" class="label">Username</label>
+                            <input id="newUserName" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="newUserPassword" class="label">Password</label>
+                            <input id="newUserPassword" type="password" class="input" data-type="password"
+                                onblur="checkPassword()">
+                            <span id="score"></span>
+                            <span id="massegePassword"></span>
+                            <progress id="progress"></progress>
+                        </div>
+                        <!-- <div class="group">
+                            <label for="repeatPassword" class="label">Repeat Password</label>
+                            <input id="repeatPassword" type="password" class="input" data-type="password">
+                        </div> -->
+                        <div class="group">
+                            <label for="newUserFirstName" class="label">First Name</label>
+                            <input id="newUserFirstName" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <label for="newUserLastName" class="label">Last Name</label>
+                            <input id="newUserLastName" type="text" class="input">
+                        </div>
+                        <div class="group">
+                            <button class="button" onclick="addNewUser()">Sign Up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Scripts/Login.js"></script>
+</body>
+
+</html>
