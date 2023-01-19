@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\404.html",
+      "PackagePath": "staticwebassets\\404.html"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\BagActive.png",
       "PackagePath": "staticwebassets\\Images\\BagActive.png"
     },
@@ -85,8 +89,8 @@
       "PackagePath": "staticwebassets\\Images\\toys\\cheeseRace.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\children'sRoom.jpg",
-      "PackagePath": "staticwebassets\\Images\\toys\\children'sRoom.jpg"
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\childrenRoom.jpg",
+      "PackagePath": "staticwebassets\\Images\\toys\\childrenRoom.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\clinic.jpg",
@@ -95,10 +99,6 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\containerTruck.jpg",
       "PackagePath": "staticwebassets\\Images\\toys\\containerTruck.jpg"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\d.jpg",
-      "PackagePath": "staticwebassets\\Images\\toys\\d.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\dubel.jpg",
@@ -115,6 +115,10 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\kitchen.jpg",
       "PackagePath": "staticwebassets\\Images\\toys\\kitchen.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\ligretto.jpg",
+      "PackagePath": "staticwebassets\\Images\\toys\\ligretto.jpg"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\pairOrTin.jpg",
@@ -157,10 +161,6 @@
       "PackagePath": "staticwebassets\\Images\\toys\\tractor.jpg"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\waterPark.jpg",
-      "PackagePath": "staticwebassets\\Images\\toys\\waterPark.jpg"
-    },
-    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Images\\toys\\whatTurtle.jpg",
       "PackagePath": "staticwebassets\\Images\\toys\\whatTurtle.jpg"
     },
@@ -187,6 +187,14 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Products.html",
       "PackagePath": "staticwebassets\\Products.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Registration-Next.html",
+      "PackagePath": "staticwebassets\\Registration-Next.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Registration.html",
+      "PackagePath": "staticwebassets\\Registration.html"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Scripts\\Login.js",
@@ -219,6 +227,10 @@
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Products.css",
       "PackagePath": "staticwebassets\\Style\\Products.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\Registration.css",
+      "PackagePath": "staticwebassets\\Style\\Registration.css"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsite\\MyFirstWebSite\\wwwroot\\Style\\ShoppingBag.css",

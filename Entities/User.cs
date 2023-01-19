@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Text.Json.Serialization;
 
 namespace Entities
 {
@@ -10,6 +8,7 @@ namespace Entities
         public User()
         {
             Orders = new HashSet<Order>();
+            Ratings = new HashSet<Rating>();
         }
 
         public int UserId { get; set; }
@@ -19,5 +18,6 @@ namespace Entities
         public string? LastName { get; set; }
 
         public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Rating> Ratings { get; set; }
     }
 }

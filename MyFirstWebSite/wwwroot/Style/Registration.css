@@ -138,6 +138,14 @@ label {
 .has-feedback .form-control {
     padding-right: 42.5px;
 }
+label {
+    cursor: default;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
 input[type="text"], input[type="password"], input[type="tel"], input[type="email"], input[type="number"] {
     -webkit-appearance: none !important;
     appearance: none !important;
@@ -165,20 +173,6 @@ input.input-txt-field {
     z-index: 3;
     right: 1.2rem;
     cursor: text;
-}
-
-label {
-    font-family: azo-sans-web-light;
-    font-weight: normal;
-    letter-spacing: 0.01em;
-    font-size: 14px;
-    word-spacing: 0px;
-}
-label {
-    display: inline-block;
-    max-width: 100%;
-    margin-bottom: 5px;
-
 }
 .row::before, .row::after, .form-horizontal .form-group::before, .form-horizontal .form-group::after {
     display: table;

@@ -21,6 +21,7 @@ namespace Respository
         public virtual DbSet<Order> Orders { get; set; } = null!;
         public virtual DbSet<OrderItem> OrderItems { get; set; } = null!;
         public virtual DbSet<Product> Products { get; set; } = null!;
+        public virtual DbSet<Rating> Ratings { get; set; } = null!;
         public virtual DbSet<User> Users { get; set; } = null!;
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -40,7 +41,9 @@ namespace Respository
 
                 entity.Property(e => e.CategoryId).HasColumnName("CATEGORY_ID");
 
-                entity.Property(e => e.Name).HasMaxLength(50);
+                entity.Property(e => e.Name)
+                    .HasMaxLength(50)
+                    .HasColumnName("NAME");
             });
 
             modelBuilder.Entity<Order>(entity =>
@@ -70,11 +73,11 @@ namespace Respository
 
                 entity.Property(e => e.OrderItemId).HasColumnName("ORDER_ITEM_ID");
 
-                entity.Property(e => e.Quantity).HasColumnName("QUANTITY");
-
                 entity.Property(e => e.OrderId).HasColumnName("ORDER_ID");
 
                 entity.Property(e => e.ProductId).HasColumnName("PRODUCT_ID");
+
+                entity.Property(e => e.Quantity).HasColumnName("QUANTITY");
 
                 entity.HasOne(d => d.Order)
                     .WithMany(p => p.OrderItems)
@@ -97,13 +100,9 @@ namespace Respository
 
                 entity.Property(e => e.CategoryId).HasColumnName("CATEGORY_ID");
 
-                entity.Property(e => e.Description)
-                    .HasMaxLength(int.MaxValue)
-                    .HasColumnName("DESCRIPTION");
+                entity.Property(e => e.Description).HasColumnName("DESCRIPTION");
 
-                entity.Property(e => e.ImgUrl)
-                    .HasMaxLength(int.MaxValue)
-                    .HasColumnName("IMG_URL");
+                entity.Property(e => e.ImgUrl).HasColumnName("IMG_URL");
 
                 entity.Property(e => e.Name)
                     .HasMaxLength(50)
@@ -116,6 +115,44 @@ namespace Respository
                     .HasForeignKey(d => d.CategoryId)
                     .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("PRODUCTS_CATEGORY_ID_fk");
+            });
+
+            modelBuilder.Entity<Rating>(entity =>
+            {
+                entity.ToTable("RATING");
+
+                entity.Property(e => e.RatingId).HasColumnName("RATING_ID");
+
+                entity.Property(e => e.Host)
+                    .HasMaxLength(50)
+                    .HasColumnName("HOST");
+
+                entity.Property(e => e.Method)
+                    .HasMaxLength(10)
+                    .HasColumnName("METHOD")
+                    .IsFixedLength();
+
+                entity.Property(e => e.Path)
+                    .HasMaxLength(50)
+                    .HasColumnName("PATH");
+
+                entity.Property(e => e.RecordoDate)
+                    .HasColumnType("datetime")
+                    .HasColumnName("RECORDo_DATE");
+
+                entity.Property(e => e.Referer)
+                    .HasMaxLength(100)
+                    .HasColumnName("REFERER");
+
+                entity.Property(e => e.UserAgent).HasColumnName("USER_AGENT");
+
+                entity.Property(e => e.UserId).HasColumnName("USER_ID");
+
+                entity.HasOne(d => d.User)
+                    .WithMany(p => p.Ratings)
+                    .HasForeignKey(d => d.UserId)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("RATING_USER_fk");
             });
 
             modelBuilder.Entity<User>(entity =>

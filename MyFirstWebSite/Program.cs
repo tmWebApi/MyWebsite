@@ -2,9 +2,11 @@ using Entities;
 using Microsoft.EntityFrameworkCore;
 using Respository;
 using Service;
+using Middlewares;
 using NLog.Web;
 using Microsoft.Extensions.DependencyInjection;
 using AutoMapper;
+using MyWebsite.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseNLog();
@@ -31,6 +33,11 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+app.UseRouting();
+
+app.UseCacheMiddleware();
+
+app.UseErrorHandlingMiddleware();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -46,5 +53,7 @@ app.UseStaticFiles();
 app.UseAuthorization();
 
 app.MapControllers();
+
+app.UseNotFoundMiddleware();
 
 app.Run();
