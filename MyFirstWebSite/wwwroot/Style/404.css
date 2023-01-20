@@ -6,9 +6,10 @@
 }
 #text{
     margin-top: -250px;
-    margin-right: 500px;
+    margin-right: 300px;
+    text-align: center;
 }
-#text-eng{
+#text h1{
     font-size: 30px;
 }
 #text-he{

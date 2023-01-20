@@ -40,7 +40,6 @@ namespace MyWebsite.Middlewares
                     contentType = "application/octet-stream";
                 }
                 httpContext.Response.ContentType = contentType;
-                // return the HTML file
                 await httpContext.Response.SendFileAsync(filePath);
             }
 

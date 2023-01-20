@@ -22,7 +22,7 @@ builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-builder.Services.AddDbContext<ShoppingWebsiteContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("Home")));
+builder.Services.AddDbContext<ShoppingWebsiteContext>(option => option.UseSqlServer(builder.Configuration.GetConnectionString("School")));
 
 
 // Add services to the container.
