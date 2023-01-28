@@ -26,17 +26,12 @@ namespace MyWebsite.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         {
-            try
-            {
-                //throw new NotImplementedException();
-                IEnumerable<Category> categories = await _categoryService.getCategories();
-                IEnumerable<CategoryDTO> categoriesDto = _mapper.Map<IEnumerable<Category>, IEnumerable<CategoryDTO>>(categories);
-                return categories == null ? NotFound() : Ok(categoriesDto);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+
+            throw new NotImplementedException();
+            IEnumerable<Category> categories = await _categoryService.getCategories();
+            IEnumerable<CategoryDTO> categoriesDto = _mapper.Map<IEnumerable<Category>, IEnumerable<CategoryDTO>>(categories);
+            return categories == null ? NotFound() : Ok(categoriesDto);
+
         }
 
     }

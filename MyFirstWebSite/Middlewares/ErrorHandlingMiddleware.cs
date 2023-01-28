@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using System.Net;
 using System.Threading.Tasks;
+using NLog.Web;
 
 namespace Middlewares
 {
