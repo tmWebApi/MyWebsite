@@ -181,6 +181,10 @@
       "PackagePath": "staticwebassets\\Images\\userIcon.png"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Login.html",
+      "PackagePath": "staticwebassets\\Login.html"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\LoginNext.html",
       "PackagePath": "staticwebassets\\LoginNext.html"
     },
@@ -197,16 +201,16 @@
       "PackagePath": "staticwebassets\\Registration.html"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Login.js",
+      "PackagePath": "staticwebassets\\Scripts\\Login.js"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Products.js",
       "PackagePath": "staticwebassets\\Scripts\\Products.js"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\ShoppingBag.js",
       "PackagePath": "staticwebassets\\Scripts\\ShoppingBag.js"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\login.js",
-      "PackagePath": "staticwebassets\\Scripts\\login.js"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\updateUser.js",
@@ -245,16 +249,12 @@
       "PackagePath": "staticwebassets\\Style\\updateUser.css"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\UpdateUser.html",
+      "PackagePath": "staticwebassets\\UpdateUser.html"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\login-old.html",
       "PackagePath": "staticwebassets\\login-old.html"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\login.html",
-      "PackagePath": "staticwebassets\\login.html"
-    },
-    {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\updateUser.html",
-      "PackagePath": "staticwebassets\\updateUser.html"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyWebsite.Microsoft.AspNetCore.StaticWebAssets.props",

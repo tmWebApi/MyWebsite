@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C+28+5ZZ//aMQE74/R7dYLrQHSbOwrL4/nJg0WY1hk0=",
+  "Hash": "zcVDw1Xt2bH+nfWO+A/gpFyjU7OnHsuWbGf5SsOdLO0=",
   "Source": "MyWebsite",
   "BasePath": "_content/MyWebsite",
   "Mode": "Default",
@@ -782,12 +782,12 @@
       "OriginalItemSpec": "wwwroot\\Images\\userIcon.png"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\login.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Login.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "login.html",
+      "RelativePath": "Login.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -796,7 +796,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\login.html"
+      "OriginalItemSpec": "wwwroot\\Login.html"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\LoginNext.html",
@@ -884,12 +884,12 @@
       "OriginalItemSpec": "wwwroot\\Registration-Next.html"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\login.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Login.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Scripts/login.js",
+      "RelativePath": "Scripts/Login.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,7 +898,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\login.js"
+      "OriginalItemSpec": "wwwroot\\Scripts\\Login.js"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Products.js",
@@ -1088,12 +1088,12 @@
       "OriginalItemSpec": "wwwroot\\Style\\updateUser.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\updateUser.html",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\UpdateUser.html",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "updateUser.html",
+      "RelativePath": "UpdateUser.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,7 +1102,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\updateUser.html"
+      "OriginalItemSpec": "wwwroot\\UpdateUser.html"
     }
   ]
 }

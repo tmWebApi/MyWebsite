@@ -27,5 +27,14 @@ namespace Respository
             await _dbContext.SaveChangesAsync();
             return order;
         }
+        public async Task<IEnumerable<OrderItem>?> selectOrderItems(IEnumerable<OrderItem> orderItems)
+        {
+            List<int> product;
+            var query = await _dbContext.Products.ToArrayAsync();
+            //  .Where(p => orderItem.Contains(p.ProductId)
+
+
+             
+        }
     }
 }

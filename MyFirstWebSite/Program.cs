@@ -40,6 +40,8 @@ app.UseErrorHandlingMiddleware();
 app.UseCacheMiddleware();
 
 app.UseRatingMiddleware();
+
+app.UseTryMiddleware();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {

@@ -1,4 +1,7 @@
-﻿
+﻿window.addEventListener('load', async () => {
+    
+    console.log(document.referrer);
+});
 const saveInSessionStorage = (data) => {
     sessionStorage.setItem('user', JSON.stringify(data));
 }
