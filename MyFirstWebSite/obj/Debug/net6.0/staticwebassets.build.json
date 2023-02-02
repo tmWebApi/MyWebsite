@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zcVDw1Xt2bH+nfWO+A/gpFyjU7OnHsuWbGf5SsOdLO0=",
+  "Hash": "/g58ttLbLPTCFajFmg9MAyJ4/SdiS0SawHDlXFFbwvk=",
   "Source": "MyWebsite",
   "BasePath": "_content/MyWebsite",
   "Mode": "Default",
@@ -867,23 +867,6 @@
       "OriginalItemSpec": "wwwroot\\Registration.html"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Registration-Next.html",
-      "SourceId": "MyWebsite",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
-      "BasePath": "_content/MyWebsite",
-      "RelativePath": "Registration-Next.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Registration-Next.html"
-    },
-    {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Login.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
@@ -916,6 +899,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Scripts\\Products.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Registration.js",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "Scripts/Registration.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Scripts\\Registration.js"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\‏‏scriptDB.js",
@@ -952,12 +952,12 @@
       "OriginalItemSpec": "wwwroot\\Scripts\\ShoppingBag.js"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\updateUser.js",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\UpdateUser.js",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Scripts/updateUser.js",
+      "RelativePath": "Scripts/UpdateUser.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,7 +966,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Scripts\\updateUser.js"
+      "OriginalItemSpec": "wwwroot\\Scripts\\UpdateUser.js"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\ShoppingBag.html",
@@ -1003,12 +1003,12 @@
       "OriginalItemSpec": "wwwroot\\Style\\404.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\login.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\Login.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Style/login.css",
+      "RelativePath": "Style/Login.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,7 +1017,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Style\\login.css"
+      "OriginalItemSpec": "wwwroot\\Style\\Login.css"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\Products.css",
@@ -1071,12 +1071,12 @@
       "OriginalItemSpec": "wwwroot\\Style\\ShoppingBag.css"
     },
     {
-      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\updateUser.css",
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\UpdateUser.css",
       "SourceId": "MyWebsite",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
       "BasePath": "_content/MyWebsite",
-      "RelativePath": "Style/updateUser.css",
+      "RelativePath": "Style/UpdateUser.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,7 +1085,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Style\\updateUser.css"
+      "OriginalItemSpec": "wwwroot\\Style\\UpdateUser.css"
     },
     {
       "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\UpdateUser.html",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\UpdateUser.html"
+    },
+    {
+      "Identity": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\UpdateUser-Next.html",
+      "SourceId": "MyWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\",
+      "BasePath": "_content/MyWebsite",
+      "RelativePath": "UpdateUser-Next.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\UpdateUser-Next.html"
     }
   ]
 }

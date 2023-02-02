@@ -20,7 +20,6 @@ const myAcount = () => {
     }
     else {
         window.location.href = './Shopping.html'
-
     }
 }
 const getAllProducts = async () => {

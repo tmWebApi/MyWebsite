@@ -193,10 +193,6 @@
       "PackagePath": "staticwebassets\\Products.html"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Registration-Next.html",
-      "PackagePath": "staticwebassets\\Registration-Next.html"
-    },
-    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Registration.html",
       "PackagePath": "staticwebassets\\Registration.html"
     },
@@ -209,12 +205,16 @@
       "PackagePath": "staticwebassets\\Scripts\\Products.js"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\Registration.js",
+      "PackagePath": "staticwebassets\\Scripts\\Registration.js"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\ShoppingBag.js",
       "PackagePath": "staticwebassets\\Scripts\\ShoppingBag.js"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\updateUser.js",
-      "PackagePath": "staticwebassets\\Scripts\\updateUser.js"
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\UpdateUser.js",
+      "PackagePath": "staticwebassets\\Scripts\\UpdateUser.js"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Scripts\\‏‏scriptDB.js",
@@ -229,6 +229,10 @@
       "PackagePath": "staticwebassets\\Style\\404.css"
     },
     {
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\Login.css",
+      "PackagePath": "staticwebassets\\Style\\Login.css"
+    },
+    {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\Products.css",
       "PackagePath": "staticwebassets\\Style\\Products.css"
     },
@@ -241,12 +245,12 @@
       "PackagePath": "staticwebassets\\Style\\ShoppingBag.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\login.css",
-      "PackagePath": "staticwebassets\\Style\\login.css"
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\UpdateUser.css",
+      "PackagePath": "staticwebassets\\Style\\UpdateUser.css"
     },
     {
-      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\Style\\updateUser.css",
-      "PackagePath": "staticwebassets\\Style\\updateUser.css"
+      "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\UpdateUser-Next.html",
+      "PackagePath": "staticwebassets\\UpdateUser-Next.html"
     },
     {
       "Id": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\wwwroot\\UpdateUser.html",

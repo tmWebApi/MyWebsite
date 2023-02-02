@@ -28,6 +28,17 @@ form {
     padding-left: 8px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 100px;
+
+}
+.container h1{
+    font: 40px Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    padding: 5px;
+    margin-bottom: 0.5em;
+    position: relative;
+    color: gray;
+
 }
 .row {
     margin-right: -8px;
