@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,65 +11,40 @@
     <link rel="icon" type="image/x-icon" href="../Images/toys.png">
     <title>Registration</title>
 </head>
+
 <body>
     <header>
         <div class="bar">
             <section class="QuickLinks">
                 <ul>
                     <li>
-                        <a href="Products.html" title="חזרה לאתר">חזרה לאתר</a>
+                        <a href="Products.html" title="חזרה לאתר">חזרה לאתר ←</a>
                     </li>
-                    <li>
-                        <a  title="חזרה לאתר"></a>
-                    </li>
-     
+
                 </ul>
             </section>
         </div>
     </header>
     <main id="mainBody">
         <div id="registerArea" class="int-registration">
-            <form class="form-horizontal floatinglbl-form">
+            <div class="form-horizontal floatinglbl-form">
+
                 <div class="container">
+                    <h1 id="newCustomer">לקוח חדש</h1>
                     <div class="row">
                         <div class="col-xs-12 normalBanner ">
                             <!--Removed Model.Text from p below IntOnePage-->
                             <p class="req-banner ">יש למלא את כל השדות אלא אם מצוין</p>
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="col-xs-12 col-md-9 row-width">
                             <div class="form-group has-feedback ">
                                 <div class="input-group input-container">
                                     <span class="input-group-addon"></span>
-                                    <input class="form-control input-txt-field" id="FirstName" maxlength="20"
-                                        name="FirstName" type="text" value="" />
-                                    <label for="FirstName">שם פרטי</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-9 row-width">
-                            <div class="form-group has-feedback ">
-                                <div class="input-group input-container">
-                                    <span class="input-group-addon"></span>
-                                    <input class="form-control input-txt-field" id="LastName" maxlength="25"
-                                        name="LastName" type="text" value="" />
-                                    <label for="LastName">שם משפחה</label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-md-9 row-width">
-                            <div class="form-group has-feedback ">
-                                <div class="input-group input-container">
-                                    <span class="input-group-addon"></span>
-                                    <input aria-required="true" class="form-control input-txt-field" id="Email" inputmode="email"
-                                        maxlength="100" name="Email" type="email" value="" x-inputmode="email" /> <label
-                                        for="Email">דוא"ל</label>
+                                    <input aria-required="true" class="form-control input-txt-field" id="Email"
+                                        inputmode="email" maxlength="100" name="Email" type="email" value=""
+                                        x-inputmode="email" /> <label for="Email">שם משתמש/דוא"ל</label>
                                 </div>
                             </div>
                         </div>
@@ -80,11 +56,13 @@
                                 <div class="input-group input-container">
                                     <span class="input-group-addon"></span>
 
-                                    <input Value=""
-                                        autocomplete="new-password" class="form-control input-txt-field"
-                                         id="Password" maxlength="12" minlength="6"
-                                        name="Password" type="password" />
+                                    <input Value="" autocomplete="new-password" class="form-control input-txt-field"
+                                        id="Password" maxlength="12" minlength="6" name="Password" type="password"
+                                        required onblur="checkPassword(this.value)" />
                                     <label for="Password">סיסמה</label>
+                                    <span id="score"></span>
+                                    <span id="massegePassword"></span>
+                                    <progress id="progress" value="0"></progress>
                                 </div>
                                 <div id="ShowPassword" class="hide-show" style="display: block;"
                                     data-ga-label="int_password_show_one_page_reg_button"><span
@@ -93,17 +71,43 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-9 row-width">
+                            <div class="form-group has-feedback ">
+                                <div class="input-group input-container">
+                                    <span class="input-group-addon"></span>
+                                    <input class="form-control input-txt-field" id="FirstName" maxlength="20"
+                                        name="FirstName" type="text" value="" required />
+                                    <label for="FirstName">שם פרטי</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12 col-md-9 row-width">
+                            <div class="form-group has-feedback ">
+                                <div class="input-group input-container">
+                                    <span class="input-group-addon"></span>
+                                    <input class="form-control input-txt-field" id="LastName" maxlength="25"
+                                        name="LastName" type="text" value="" required />
+                                    <label for="LastName">שם משפחה</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <!--Submit-->
                     <div class="row normalBanner">
                         <div class="col-xs-12 col-md-5 register-button-and-icons">
                             <div class="form-group margin-bttm-8px">
-                                <button type="submit" id="SignupButton" class="btn btn-primary">הרשמה</button>
+                                <button id="SignupButton" class="btn btn-primary" onclick="register()">הרשמה</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
+        <script src="./Scripts/Registration.js"></script>
 </body>
+
 </html>

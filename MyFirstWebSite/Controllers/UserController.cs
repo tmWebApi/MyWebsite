@@ -16,26 +16,28 @@ namespace MyWebsite.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
-        private readonly ILogger<UserController> _logger;
         private readonly IMapper _mapper;
 
-        public UserController(IUserService userService, IMapper mapper, ILogger<UserController> logger)
+        public UserController(IUserService userService, IMapper mapper)
         {
             _userService = userService;
             _mapper = mapper;
-            _logger = logger;
         }
 
         // GET: api/<UserControllers>
-        [HttpGet]
-        public async Task<ActionResult<IEnumerable<UserWithoutPasswordDTO?>>> Get([FromQuery] string userName, [FromQuery] string password)
+        [HttpPost]
+        public async Task<ActionResult<IEnumerable<UserWithoutPasswordDTO?>>> Get([FromBody] UserLoginDTO userLogin)
         {
-            _logger.LogInformation($"login user {userName} ");
-
-            User? user = await _userService.getUser(userName, password);
+            User? user = await _userService.getUser(userLogin.UserName, userLogin.Password);
             if (user == null)
                 return NoContent();
             UserWithoutPasswordDTO userWithoutPassword = _mapper.Map<User, UserWithoutPasswordDTO>(user);
+            CookieOptions opt = new CookieOptions()
+            {
+                HttpOnly = true,
+                Expires = DateTimeOffset.UtcNow.AddYears(1),
+            };
+            HttpContext.Response.Cookies.Append("userId", userWithoutPassword.UserId.ToString(), opt);
             return  Ok(userWithoutPassword);
 
 

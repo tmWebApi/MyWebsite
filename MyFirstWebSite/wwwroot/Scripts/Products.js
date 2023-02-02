@@ -13,6 +13,15 @@
     }
 
 });
+const myAcount = () => {
+    const user = getUserFromSessionStorage();
+    if (user != null) {
+        window.location.href = './UpdateUser.html'
+    }
+    else {
+        window.location.href = './Shopping.html'
+    }
+}
 const getAllProducts = async () => {
     const response = await fetch("api/Product");
     if (!response.ok)
@@ -35,6 +44,20 @@ const getAllCategories = async () => {
     }
     const dataCategories = await response.json();
     return dataCategories;
+}
+const drawCategories = (categories) => {
+    const categoriesView = categories.map(drawCategory);
+}
+const drawCategory = (category) => {
+    temp = document.getElementById("temp-category");
+    var clonCategories = temp.content.cloneNode(true);
+    clonCategories.querySelector("input").value = category.name;
+    clonCategories.querySelector("input").id = category.categoryId;
+    clonCategories.querySelector("input").addEventListener('change', (event) => { filterParams(event, category) });
+    clonCategories.querySelector("label").for = category.categoryId;
+    clonCategories.querySelector(".OptionName").innerText = category.name;
+
+    document.getElementById("categoryList").appendChild(clonCategories);
 }
 const drawProducts = (products) => {
     document.getElementById("PoductList").innerHTML = "";
@@ -182,20 +205,11 @@ const getCartFromSessionStorage = () => {
     const myCart = sessionStorage.getItem("myCart");
     return JSON.parse(myCart);
 }
-const drawCategories = (categories) => {
-    const categoriesView = categories.map(drawCategory);
+const getUserFromSessionStorage = () => {
+    const user = sessionStorage.getItem("user");
+    return JSON.parse(user);
 }
-const drawCategory = (category) => {
-    temp = document.getElementById("temp-category");
-    var clonCategories = temp.content.cloneNode(true);
-    clonCategories.querySelector("input").value = category.name;
-    clonCategories.querySelector("input").id = category.categoryId;
-    clonCategories.querySelector("input").addEventListener('change', (event) => { filterParams(event, category) });
-    clonCategories.querySelector("label").for = category.categoryId;
-    clonCategories.querySelector(".OptionName").innerText = category.name;
 
-    document.getElementById("categoryList").appendChild(clonCategories);
-}
 const filterParams = async (event, category) => {
     const categoriesId = filterByCategories();
     const nameSearch = filterByValue("nameSearch");

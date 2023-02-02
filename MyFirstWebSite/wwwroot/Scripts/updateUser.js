@@ -1,23 +1,21 @@
-﻿const getFromStorage = () => {
+﻿window.addEventListener("load",()=>{
+    const user = getUserFromStorage();    
+    const userNameUpdate = document.getElementById("Email");
+    userNameUpdate.defaultValue = user.userName;
+    const firstNameUpdate = document.getElementById("FirstName");
+    firstNameUpdate.defaultValue = user.firstName;
+    const lastNameUpdate = document.getElementById("LastName");
+    lastNameUpdate.defaultValue = user.lastName;
+});
+
+const getUserFromStorage = () => {
     const userObjectAsJson = sessionStorage.getItem('user');
     return JSON.parse(userObjectAsJson);
 
 }
-const paper = () => {
-    const oldUser = getFromStorage();
-    const hellowUserDiv = document.getElementById("hellowUser");
-    hellowUserDiv.innerText = `hellow ${oldUser.firstName} ${oldUser.lastName}, login seccsess`
+const createUpdateUser =()=>{
     
-    const userNameUpdate = document.getElementById("userNameUpdate");
-    userNameUpdate.defaultValue = oldUser.userName;
-    const passwordUpdate = document.getElementById("passwordUpdate");
-    passwordUpdate.defaultValue = oldUser.password;
-    const firstNameUpdate = document.getElementById("firstNameUpdate");
-    firstNameUpdate.defaultValue = oldUser.firstName;
-    const lastNameUpdate = document.getElementById("lastNameUpdate");
-    lastNameUpdate.defaultValue = oldUser.lastName;
 }
-paper();
 const updateUser = async () => {
     const userNameUpdate = document.getElementById("userNameUpdate").value;
     const passwordUpdate = document.getElementById("passwordUpdate").value;;
@@ -33,7 +31,7 @@ const updateUser = async () => {
         "firstName": firstNameUpdate,
         "lastName": lastNameUpdate
     };
-    const response = await fetch(`https://localhost:44380/api/user/${userId}`, {
+    const response = await fetch(`api/user/${userId}`, {
         headers: { "Content-Type": "application/json" },
         method: 'PUT',
         body: JSON.stringify(newUser)

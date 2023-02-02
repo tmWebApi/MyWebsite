@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj": {}
+    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj": {}
   },
   "projects": {
-    "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj": {
+    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\213292147\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Entities\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\213292147\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -67,7 +69,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -76,26 +79,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj": {
+    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj",
         "projectName": "Respository",
-        "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj",
-        "packagesPath": "C:\\Users\\213292147\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\213292147\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -108,8 +113,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj"
+              "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj"
               }
             }
           }
@@ -129,7 +134,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -138,26 +144,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj": {
+    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\213292147\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Service\\obj\\",
+        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\213292147\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -170,8 +178,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj": {
-                "projectPath": "C:\\Users\\213292147\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj"
+              "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj"
               }
             }
           }
@@ -197,7 +205,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -206,7 +215,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

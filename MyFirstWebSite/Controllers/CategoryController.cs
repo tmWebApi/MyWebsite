@@ -14,29 +14,20 @@ namespace MyWebsite.Controllers
     {
         private readonly ICategoryService _categoryService;
         private readonly IMapper _mapper;
-        private readonly ILogger _logger;
-        public CategoryController(ICategoryService categoryService, IMapper mapper, ILogger<CategoryController> logger)
+        public CategoryController(ICategoryService categoryService, IMapper mapper)
         {
             _categoryService = categoryService;
             _mapper = mapper;
-            _logger = logger;
         }
 
         // GET: api/<CategoryController>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CategoryDTO>>> Get()
         {
-            try
-            {
-                //throw new NotImplementedException();
-                IEnumerable<Category> categories = await _categoryService.getCategories();
-                IEnumerable<CategoryDTO> categoriesDto = _mapper.Map<IEnumerable<Category>, IEnumerable<CategoryDTO>>(categories);
-                return categories == null ? NotFound() : Ok(categoriesDto);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            IEnumerable<Category> categories = await _categoryService.getCategories();
+            IEnumerable<CategoryDTO> categoriesDto = _mapper.Map<IEnumerable<Category>, IEnumerable<CategoryDTO>>(categories);
+            return categories == null ? NotFound() : Ok(categoriesDto);
+
         }
 
     }
