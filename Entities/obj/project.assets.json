@@ -2020,11 +2020,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj",
       "projectName": "Entities",
-      "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj",
+      "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\obj\\",
+      "outputPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

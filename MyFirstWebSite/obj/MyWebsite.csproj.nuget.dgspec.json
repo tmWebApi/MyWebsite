@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\MyWebsite.csproj": {}
+    "C:\\Users\\User\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\DTO\\DTO.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\MyWebsite\\DTO\\DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\DTO\\DTO.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\DTO\\DTO.csproj",
         "projectName": "DTO",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\DTO\\DTO.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\DTO\\DTO.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\DTO\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\MyWebsite.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\MyWebsite.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj",
         "projectName": "MyWebsite",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\MyWebsite.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\MyWebsite.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\MyFirstWebSite\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\MyFirstWebSite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -174,11 +174,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\DTO\\DTO.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\DTO\\DTO.csproj"
+              "C:\\Users\\User\\Source\\Repos\\MyWebsite\\DTO\\DTO.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\DTO\\DTO.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj"
+              "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Service\\Service.csproj"
               }
             }
           }
@@ -235,14 +235,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj",
         "projectName": "Respository",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Respository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -265,8 +265,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Entities\\Entities.csproj"
+              "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Entities\\Entities.csproj"
               }
             }
           }
@@ -300,14 +300,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj": {
+    "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Service\\obj\\",
+        "outputPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -330,8 +330,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\MyWebsiteGood\\Respository\\Respository.csproj"
+              "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj": {
+                "projectPath": "C:\\Users\\User\\Source\\Repos\\MyWebsite\\Respository\\Respository.csproj"
               }
             }
           }
